@@ -7,7 +7,7 @@ var e = Object.defineProperty,
     })(i, "symbol" != typeof t ? t + "" : t, a),
     a
   );
-import { aJ as t } from "./index-4f9d678f.js";
+import { aJ as t } from "./index-d15e9c92.js";
 class a {
   constructor(e) {
     i(this, "config"),
@@ -22,26 +22,26 @@ class a {
       a = e.jsApiList ?? [],
       n = e.openTagList ?? [];
     t({ url: location.href }).then(({ code: e, data: t }) => {
-      //   if (0 === e) {
-      //     let { timestamp: e, nonceStr: p, signature: r } = t;
-      //     (this.timestamp = 1e3 * e),
-      //       wx.config({
-      //         debug: !1,
-      //         appId: i,
-      //         timestamp: e,
-      //         nonceStr: p,
-      //         signature: r,
-      //         jsApiList: [
-      //           "updateAppMessageShareData",
-      //           "updateTimelineShareData",
-      //           "openProductSpecificView",
-      //           "downloadFile",
-      //           "saveImageToPhotosAlbum",
-      //           ...a,
-      //         ],
-      //         openTagList: ["wx-open-launch-weapp", ...n],
-      //       });
-      //   }
+      if (0 === e) {
+        let { timestamp: e, nonceStr: p, signature: r } = t;
+        this.timestamp = 1e3 * e;
+        //   wx.config({
+        //     debug: !1,
+        //     appId: i,
+        //     timestamp: e,
+        //     nonceStr: p,
+        //     signature: r,
+        //     jsApiList: [
+        //       "updateAppMessageShareData",
+        //       "updateTimelineShareData",
+        //       "openProductSpecificView",
+        //       "downloadFile",
+        //       "saveImageToPhotosAlbum",
+        //       ...a,
+        //     ],
+        //     openTagList: ["wx-open-launch-weapp", ...n],
+        //   })
+      }
     });
   }
   ready(e) {

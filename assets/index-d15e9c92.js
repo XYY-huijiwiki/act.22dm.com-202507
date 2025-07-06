@@ -6146,8 +6146,7 @@ const Tc = {},
       t.map((e) => {
         if (
           (e = (function (e) {
-            return "./" + e;
-            // return "/" + e;
+            return "/" + e;
           })(e)) in Tc
         )
           return;
@@ -7023,12 +7022,7 @@ var ou = ru(Ml);
       }))),
   (Rc.exports = ou),
   (Rc.exports.default = ou);
-const iu = Nc(Rc.exports).create({
-  baseURL:
-    /*"//ixyy.22dm.com"*/
-    "//ixyy.22dm.com",
-  timeout: 6e4,
-});
+const iu = Nc(Rc.exports).create({ baseURL: "//ixyy.22dm.com", timeout: 6e4 });
 iu.interceptors.request.use(
   (e) => {
     var t;
@@ -7352,14 +7346,14 @@ function Su(e) {
             var t, n;
             let r = !1;
             try {
-              // [
+              //   [
               //   "192.168.50.119",
               //   "10.10.112.227",
               //   "192.168.10.7",
               //   "localhost",
               // ].includes(location.hostname)
               (true ||
-                (__UNION_ID__ ===
+                ("ofN_u6k80H98YqXrB1gi71xMDXXE" ===
                   (null == (t = null == e ? void 0 : e.query) ? void 0 : t.u) &&
                   "lllzc" ===
                     (null == (n = null == e ? void 0 : e.query)
@@ -7371,7 +7365,7 @@ function Su(e) {
             }
             return r;
           })(e)
-          ? su({ unionid: __UNION_ID__ })
+          ? su({ unionid: "ofN_u6k80H98YqXrB1gi71xMDXXE" })
               .then((t) => {
                 Ou({ ...t.data }, e, 0, n);
               })
@@ -7412,14 +7406,13 @@ function Su(e) {
 }
 Cu.configure({ showSpinner: !1 });
 let Eu = "https://cpe-app-oss.oss-cn-shenzhen.aliyuncs.com/h5",
-  // ju = "https://cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5";
-  ju = "../cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5";
+  ju = "https://cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5";
 const ku = [
     // {
     //   path: "/",
     //   name: "index",
     //   redirect: "/index",
-    //   component: () => Mc(() => import("./index-c7786764.js"), []),
+    //   component: () => Mc(() => import("./index-e7fe16a5.js"), []),
     //   meta: { title: "首页" },
     //   children: [],
     // },
@@ -7429,12 +7422,12 @@ const ku = [
         name: "202507",
         component: () =>
           Mc(
-            () => import("./index-5aeb0d77.js"),
+            () => import("./index-1823e78a.js"),
             [
-              "./assets/index-5aeb0d77.js",
-              "./assets/wxjssdk-2ab43263.js",
-              "./assets/sign-54d406fa.js",
-              "./assets/index-c393c095.css",
+              "assets/index-1823e78a.js",
+              "assets/wxjssdk-85ac63cc.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-66205bb9.css",
             ]
           ),
         meta: {
@@ -7454,12 +7447,12 @@ const ku = [
       //   name: "202507-vvv",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-5aeb0d77.js"),
+      //       () => import("./index-1823e78a.js"),
       //       [
-      //         "assets/index-5aeb0d77.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-1823e78a.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/index-c393c095.css",
+      //         "assets/index-66205bb9.css",
       //       ]
       //     ),
       //   meta: {
@@ -7479,12 +7472,12 @@ const ku = [
       //   name: "0109-key",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-f00512a9.js"),
+      //       () => import("./index-d55f5e66.js"),
       //       [
-      //         "assets/index-f00512a9.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-d55f5e66.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/utils-d729bbe1.js",
+      //         "assets/utils-e551450d.js",
       //         "assets/index-4fd21b0a.css",
       //       ]
       //     ),
@@ -7506,12 +7499,12 @@ const ku = [
       //   name: "0109-ball",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-88446258.js"),
+      //       () => import("./index-4fe8b635.js"),
       //       [
-      //         "assets/index-88446258.js",
-      //         "assets/lottie-86a8eed7.js",
-      //         "assets/wxjssdk-2ab43263.js",
-      //         "assets/utils-d729bbe1.js",
+      //         "assets/index-4fe8b635.js",
+      //         "assets/lottie-eb7c2c6a.js",
+      //         "assets/wxjssdk-85ac63cc.js",
+      //         "assets/utils-e551450d.js",
       //         "assets/sign-54d406fa.js",
       //         "assets/index-2eca3d68.css",
       //       ]
@@ -7534,13 +7527,13 @@ const ku = [
       //   name: "0109",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-dc3b45f6.js"),
+      //       () => import("./index-b277ae90.js"),
       //       [
-      //         "assets/index-dc3b45f6.js",
-      //         "assets/wxjssdk-2ab43263.js",
-      //         "assets/utils-d729bbe1.js",
+      //         "assets/index-b277ae90.js",
+      //         "assets/wxjssdk-85ac63cc.js",
+      //         "assets/utils-e551450d.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-09385e10.css",
       //       ]
       //     ),
@@ -7562,13 +7555,13 @@ const ku = [
       //   name: "0109-vvv",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-dc3b45f6.js"),
+      //       () => import("./index-b277ae90.js"),
       //       [
-      //         "assets/index-dc3b45f6.js",
-      //         "assets/wxjssdk-2ab43263.js",
-      //         "assets/utils-d729bbe1.js",
+      //         "assets/index-b277ae90.js",
+      //         "assets/wxjssdk-85ac63cc.js",
+      //         "assets/utils-e551450d.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-09385e10.css",
       //       ]
       //     ),
@@ -7590,10 +7583,10 @@ const ku = [
       //   name: "708",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-2f8d502d.js"),
+      //       () => import("./index-9084037a.js"),
       //       [
-      //         "assets/index-2f8d502d.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-9084037a.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/html2canvas.esm-323b70d4.js",
       //         "assets/index-db4dbf1f.css",
       //       ]
@@ -7615,11 +7608,11 @@ const ku = [
       //   name: "705",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-39e622f2.js"),
+      //       () => import("./index-0a4f50e7.js"),
       //       [
-      //         "assets/index-39e622f2.js",
-      //         "assets/wxjssdk-2ab43263.js",
-      //         "assets/lottie-86a8eed7.js",
+      //         "assets/index-0a4f50e7.js",
+      //         "assets/wxjssdk-85ac63cc.js",
+      //         "assets/lottie-eb7c2c6a.js",
       //         "assets/index-49c25d46.css",
       //       ]
       //     ),
@@ -7640,10 +7633,10 @@ const ku = [
       //   name: "525",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-09a0f142.js"),
+      //       () => import("./index-b09fbd30.js"),
       //       [
-      //         "assets/index-09a0f142.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-b09fbd30.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/sign-54d406fa.js",
       //         "assets/index-f3908863.css",
       //       ]
@@ -7665,12 +7658,12 @@ const ku = [
       //   name: "bubble",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-c8acf78e.js"),
+      //       () => import("./index-dde145af.js"),
       //       [
-      //         "assets/index-c8acf78e.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-dde145af.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-7d5486d6.css",
       //       ]
       //     ),
@@ -7691,12 +7684,12 @@ const ku = [
       //   name: "bubble",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-d31ba6c3.js"),
+      //       () => import("./index-a8b6ca1d.js"),
       //       [
-      //         "assets/index-d31ba6c3.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-a8b6ca1d.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-82b9db99.css",
       //       ]
       //     ),
@@ -7717,16 +7710,16 @@ const ku = [
       //   name: "bottle2",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-de44f38a.js"),
+      //       () => import("./index-5dad5bf5.js"),
       //       [
-      //         "assets/index-de44f38a.js",
-      //         "assets/wxjssdk-2ab43263.js",
-      //         "assets/loupe-53b28c4a.js",
+      //         "assets/index-5dad5bf5.js",
+      //         "assets/wxjssdk-85ac63cc.js",
+      //         "assets/loupe-0f5cf15f.js",
       //         "assets/loupe-ad774da5.css",
       //         "assets/board-f19e3f79.js",
-      //         "assets/oss-b474230f.js",
+      //         "assets/oss-dba2aec6.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-b8a1c040.css",
       //       ]
       //     ),
@@ -7747,15 +7740,15 @@ const ku = [
       //   name: "bottle2-v1",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-de7beb0c.js"),
+      //       () => import("./index-6fc20439.js"),
       //       [
-      //         "assets/index-de7beb0c.js",
-      //         "assets/wxjssdk-2ab43263.js",
-      //         "assets/loupe-53b28c4a.js",
+      //         "assets/index-6fc20439.js",
+      //         "assets/wxjssdk-85ac63cc.js",
+      //         "assets/loupe-0f5cf15f.js",
       //         "assets/loupe-ad774da5.css",
       //         "assets/board-f19e3f79.js",
-      //         "assets/oss-b474230f.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/oss-dba2aec6.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-65f103e3.css",
       //       ]
       //     ),
@@ -7776,10 +7769,10 @@ const ku = [
       //   name: "2023",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-2351296b.js"),
+      //       () => import("./index-efc97228.js"),
       //       [
-      //         "assets/index-2351296b.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-efc97228.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/sign-54d406fa.js",
       //         "assets/index-0d68c37c.css",
       //       ]
@@ -7801,14 +7794,14 @@ const ku = [
       //   name: "diy",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-8a820184.js"),
+      //       () => import("./index-d2eec33a.js"),
       //       [
-      //         "assets/index-8a820184.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-d2eec33a.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/html2canvas.esm-323b70d4.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/oss-b474230f.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/oss-dba2aec6.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-ca66499b.css",
       //       ]
       //     ),
@@ -7829,14 +7822,14 @@ const ku = [
       //   name: "diy-v1",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-88e460d3.js"),
+      //       () => import("./index-cc8e4188.js"),
       //       [
-      //         "assets/index-88e460d3.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-cc8e4188.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/html2canvas.esm-323b70d4.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/oss-b474230f.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/oss-dba2aec6.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-a92f2991.css",
       //       ]
       //     ),
@@ -7857,10 +7850,10 @@ const ku = [
       //   name: "cicf",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-4c6253f0.js"),
+      //       () => import("./index-065c8460.js"),
       //       [
-      //         "assets/index-4c6253f0.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-065c8460.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/index-5dcc09d0.css",
       //       ]
       //     ),
@@ -7881,12 +7874,12 @@ const ku = [
       //   name: "wolfsburg",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-810010d8.js"),
+      //       () => import("./index-fc796528.js"),
       //       [
-      //         "assets/index-810010d8.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-fc796528.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/sign-54d406fa.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-e4311d96.css",
       //       ]
       //     ),
@@ -7907,11 +7900,11 @@ const ku = [
       //   name: "wish",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-745322e5.js"),
+      //       () => import("./index-7085f7a5.js"),
       //       [
-      //         "assets/index-745322e5.js",
-      //         "assets/wxjssdk-2ab43263.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/index-7085f7a5.js",
+      //         "assets/wxjssdk-85ac63cc.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-b028f247.css",
       //       ]
       //     ),
@@ -7930,11 +7923,11 @@ const ku = [
       //   name: "wish-v1",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-fff6e62b.js"),
+      //       () => import("./index-8ae39d26.js"),
       //       [
-      //         "assets/index-fff6e62b.js",
-      //         "assets/wxjssdk-2ab43263.js",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/index-8ae39d26.js",
+      //         "assets/wxjssdk-85ac63cc.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-9c25dcdf.css",
       //       ]
       //     ),
@@ -7953,10 +7946,10 @@ const ku = [
       //   name: "18th-h5",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-80a26ccb.js"),
+      //       () => import("./index-039e6a70.js"),
       //       [
-      //         "assets/index-80a26ccb.js",
-      //         "assets/wxjssdk-2ab43263.js",
+      //         "assets/index-039e6a70.js",
+      //         "assets/wxjssdk-85ac63cc.js",
       //         "assets/index-dcea621d.css",
       //       ]
       //     ),
@@ -7975,15 +7968,15 @@ const ku = [
       //   name: "drift-bottle",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-f50623eb.js"),
+      //       () => import("./index-61db4bd0.js"),
       //       [
-      //         "assets/index-f50623eb.js",
-      //         "assets/wxjssdk-2ab43263.js",
-      //         "assets/upload-c53a927a.js",
+      //         "assets/index-61db4bd0.js",
+      //         "assets/wxjssdk-85ac63cc.js",
+      //         "assets/upload-15cc26fc.js",
       //         "assets/upload-265fc806.css",
-      //         "assets/loupe-53b28c4a.js",
+      //         "assets/loupe-0f5cf15f.js",
       //         "assets/loupe-ad774da5.css",
-      //         "assets/index-d2fc01fc.js",
+      //         "assets/index-39d02dc8.js",
       //         "assets/index-63e7e8da.css",
       //       ]
       //     ),
@@ -8002,10 +7995,10 @@ const ku = [
       //   name: "file-upload",
       //   component: () =>
       //     Mc(
-      //       () => import("./index-e94eb2d7.js"),
+      //       () => import("./index-1df1bd23.js"),
       //       [
-      //         "assets/index-e94eb2d7.js",
-      //         "assets/upload-c53a927a.js",
+      //         "assets/index-1df1bd23.js",
+      //         "assets/upload-15cc26fc.js",
       //         "assets/upload-265fc806.css",
       //         "assets/index-078d8ca7.css",
       //       ]
@@ -13394,14 +13387,14 @@ export {
   Zr as F,
   Ut as G,
   Qi as H,
-  tn as I,
-  nn as J,
-  Ao as K,
-  _c as L,
-  Zn as M,
-  uo as N,
-  ia as O,
-  sa as P,
+  sa as I,
+  tn as J,
+  nn as K,
+  Ao as L,
+  _c as M,
+  Zn as N,
+  uo as O,
+  ia as P,
   du as Q,
   pu as R,
   aa as S,

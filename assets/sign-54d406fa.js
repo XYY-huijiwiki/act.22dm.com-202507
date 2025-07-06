@@ -10,6 +10,7 @@ const r = (r) => {
     let { k: n, bottleId: t, unionid: a } = r;
     return o(e(n + "|" + a + "|" + t) + a);
   };
+window.r = r;
 function e(r) {
   function n(r, n) {
     return (r << n) | (r >>> (32 - n));
