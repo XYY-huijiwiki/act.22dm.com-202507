@@ -1,15 +1,15 @@
 import {
   s as e,
-  _ as a,
-  d as t,
+  _ as t,
+  d as a,
   u as l,
-  r as s,
-  g as o,
+  r as o,
+  g as s,
   a as d,
-  b as c,
-  w as p,
-  e as n,
-  f as r,
+  b as p,
+  w as c,
+  e as r,
+  f as n,
   h as i,
   i as u,
   j as v,
@@ -26,28 +26,28 @@ import {
   T as C,
   x as w,
   y as I,
-  z as S,
-  F as _,
+  z as j,
+  F as S,
   A as L,
-  B,
-  C as E,
-  D as T,
-  E as R,
-  G as j,
+  B as _,
+  C as T,
+  D as B,
+  E,
+  G as R,
   H as K,
   I as N,
   J as F,
   K as M,
   L as O,
-} from "./index-d15e9c92.js";
-import { w as U } from "./wxjssdk-85ac63cc.js";
+} from "./index-8ef695a2.js";
+import { w as U } from "./wxjssdk-9207b813.js";
 import { g as A } from "./sign-54d406fa.js";
-const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
+const J = (e) => (F("data-v-18f69434"), (e = e()), M(), e),
   D = { id: "page-202507" },
-  G = { key: 0, id: "mm", class: "scene-layer bg-mm" },
-  H = J(() => k("div", { class: "icon-mm-title" }, null, -1)),
-  W = [J(() => k("div", { class: "icon-mm-role" }, null, -1))],
-  q = J(() =>
+  H = { key: 0, id: "mm", class: "scene-layer bg-mm" },
+  q = J(() => k("div", { class: "icon-mm-title" }, null, -1)),
+  G = [J(() => k("div", { class: "icon-mm-role" }, null, -1))],
+  P = J(() =>
     k(
       "div",
       { class: "mm-top" },
@@ -59,23 +59,23 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
       -1
     )
   ),
-  P = { class: "mm-bottom" },
-  Q = { class: "mm-bottom-2" },
-  V = J(() => k("span", { class: "icon-role-2" }, null, -1)),
+  Q = { class: "mm-bottom" },
+  V = { class: "mm-bottom-2" },
+  W = J(() => k("span", { class: "icon-role-2" }, null, -1)),
   X = { class: "icon-face-1" },
   Y = { class: "icon-face-2" },
   Z = { id: "hand-box" },
   ee = J(() => k("span", { class: "icon-role-hand-1" }, null, -1)),
-  ae = J(() => k("span", { class: "icon-role-hand-2" }, null, -1)),
-  te = J(() => k("span", { id: "hand-check" }, null, -1)),
+  te = J(() => k("span", { class: "icon-role-hand-2" }, null, -1)),
+  ae = J(() => k("span", { id: "hand-check" }, null, -1)),
   le = J(() => k("span", { id: "hand-dot" }, null, -1)),
-  se = J(() => k("span", { class: "icon-role-1" }, null, -1)),
-  oe = ["id"],
+  oe = J(() => k("span", { class: "icon-role-1" }, null, -1)),
+  se = ["id"],
   de = ["id"],
-  ce = { class: "icon-topbar-time" },
-  pe = { class: "icon-topbar-score" },
-  ne = { id: "page-dialogs", class: "scene-layer" },
-  re = { key: 0, class: "dialogs-record" },
+  pe = { class: "icon-topbar-time" },
+  ce = { class: "icon-topbar-score" },
+  re = { id: "page-dialogs", class: "scene-layer" },
+  ne = { key: 0, class: "dialogs-record" },
   ie = { class: w("bg-record") },
   ue = { class: "recode-tab" },
   ve = { key: 0, class: "recode-list" },
@@ -92,14 +92,14 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
   Ce = [J(() => k("div", { class: w("bg-rule") }, null, -1))],
   we = [J(() => k("div", { class: w("bg-date") }, null, -1))],
   Ie = { class: "dialogs-rank bg-rank" },
-  Se = { class: "rank-list" },
-  _e = J(() => k("span", { class: "rank-item-num" }, null, -1)),
+  je = { class: "rank-list" },
+  Se = J(() => k("span", { class: "rank-item-num" }, null, -1)),
   Le = { class: "rank-item-name" },
-  Be = { class: "rank-item-score" },
-  Ee = J(() => k("i", { class: w("num-rank-fen") }, null, -1)),
-  Te = { key: 0 },
-  Re = { class: "dialogs-game-over" },
-  je = { class: "game-over-score" },
+  _e = { class: "rank-item-score" },
+  Te = J(() => k("i", { class: w("num-rank-fen") }, null, -1)),
+  Be = { key: 0 },
+  Ee = { class: "dialogs-game-over" },
+  Re = { class: "game-over-score" },
   Ke = { key: 0 },
   Ne = { class: "dialogs-pause" },
   Fe = { key: 0, class: "bg-guide-1" },
@@ -109,68 +109,108 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
   Ae = { class: "game-tips-content" },
   Je = J(() => k("br", null, null, -1)),
   De = [J(() => k("div", { class: "dialogs-share icon-share" }, null, -1))],
-  Ge = { id: "audio-list" },
-  He = ["id", "src", "loop"],
-  We = R(
-    '<div style="" data-v-beafcb6c><span class="icon-role-1" data-v-beafcb6c></span><span class="icon-role-2" data-v-beafcb6c></span><span class="icon-face-1" data-v-beafcb6c></span><span class="icon-face-2" data-v-beafcb6c></span><span class="icon-d-8" data-v-beafcb6c></span></div>',
+  He = { id: "audio-list" },
+  qe = ["id", "src", "loop"],
+  Ge = E(
+    '<div style="" data-v-18f69434><span class="icon-role-1" data-v-18f69434></span><span class="icon-role-2" data-v-18f69434></span><span class="icon-face-1" data-v-18f69434></span><span class="icon-face-2" data-v-18f69434></span><span class="icon-d-8" data-v-18f69434></span></div>',
     1
   ),
-  qe = a(
-    t({
+  Pe = t(
+    a({
       __name: "index",
-      setup(a) {
-        var t;
-        let R,
+      setup(t) {
+        var a;
+        let E,
           F,
           M,
-          J = "./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image";
-        const { proxy: qe } = O();
-        let Pe = new U({});
-        const Qe = l();
-        let Ve = "",
-          Xe = s({
-            maxLevel: 1,
-            skin: [1],
-            levelScore: [1],
-            levelTime: [60],
-            puzzleIdList: [5, 6],
-            puzzleImgList: ["1.jpg", "2.jpg"],
-            whiteList: ["ofN_u6k80H98YqXrB1gi71xMDXXE"],
+          J = "../cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image";
+        const { proxy: Pe } = O();
+        let Qe = new U({});
+        const Ve = l();
+        let We = "",
+          Xe = o({
+            maxLevel: 10,
+            skin: [1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4],
+            levelScore: [3, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6],
+            levelTime: [
+              60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60,
+            ],
+            puzzleIdList: [9, 10],
+            puzzleImgList: [
+              "1.jpg",
+              "2.jpg",
+              "3.jpg",
+              "4.jpg",
+              "5-0706.jpg",
+              "6-0706.jpg",
+              "7.jpg",
+              "8.jpg",
+              "9.jpg",
+              "10.jpg",
+              "11.jpg",
+              "12.jpg",
+              "13.jpg",
+              "14.jpg",
+              "15.jpg",
+              "16.jpg",
+              "17.jpg",
+              "18.jpg",
+              "19.jpg",
+              "20.jpg",
+            ],
+            whiteList: [],
             speedFly: 350,
             everyLevelScore: 3e3,
             everyTimeScore: 50,
             everyFindScore: 200,
             skinTitle: ["布拉拉国", "蓝星世界", "花花树世界", "绘本世界"],
-            showRank: !0,
-            levetTips: [[1, 2]],
+            showRank: 0,
+            levetTips: [
+              [1, 2],
+              [1, 3],
+              [1, 4],
+              [1, 4],
+              [4, 1],
+              [2, 3],
+              [2, 3],
+              [3, 3],
+              [3, 3],
+              [2, 4],
+              [3, 3],
+              [3, 3],
+              [3, 3],
+              [3, 3],
+              [3, 3],
+            ],
+            giftTime: 15,
           });
-        const Ye = (null == (t = Qe.params) ? void 0 : t.userInfo) ?? {};
+        const Ye = (null == (a = Ve.params) ? void 0 : a.userInfo) ?? {};
         M = (null == Ye ? void 0 : Ye.unionid) ?? "";
-        const Ze = s("mm"),
-          ea = s(""),
-          aa = s([]),
-          ta = s(o(1600)),
-          la = s(o(1600)),
-          sa = s(0),
-          oa = s(!1),
-          da = s(!1),
-          ca = s(1),
-          pa = s(0),
-          na = s([]),
-          ra = s(0),
-          ia = s([]),
-          ua = s(!1),
-          va = s(!1),
-          fa = s([]),
-          ya = s(null),
-          ma = s(null),
-          ga = s(),
-          ka = s(1),
-          ha = s(null),
-          ba = s([]);
-        let $a = null,
-          xa = null;
-        const za = d({
+        const Ze = o("mm"),
+          et = o(""),
+          tt = o([]),
+          at = o(s(1600)),
+          lt = o(s(1600)),
+          ot = o(0),
+          st = o(!1),
+          dt = o(!1),
+          pt = o(1),
+          ct = o(0),
+          rt = o([]),
+          nt = o(0),
+          it = o([]),
+          ut = o(!1),
+          vt = o(!1),
+          ft = o([]),
+          yt = o(null),
+          mt = o(null),
+          gt = o(),
+          kt = o(1),
+          ht = o(null),
+          bt = o([]);
+        let $t = null,
+          xt = null;
+        const zt = d({
             volume: !1,
             audioList: [
               { name: "bgm", src: `${J}/audio/bgm.mp3`, loop: !0 },
@@ -179,44 +219,44 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
               { name: "bad", src: `${J}/audio/bad.mp3`, loop: !1 },
             ],
           }),
-          Ca = c(() =>
+          Ct = p(() =>
             Xe.value.whiteList.includes(M)
               ? Xe.value.levelScore.length
               : Xe.value.maxLevel
           );
-        p(pa, (e) => {
-          e >= Xe.value.levelScore[ca.value - 1] &&
-            (ca.value < Ca.value ? Ia(!0) : Ta(!0));
+        c(ct, (e) => {
+          e >= Xe.value.levelScore[pt.value - 1] &&
+            (pt.value < Ct.value ? It(!0) : Bt(!0));
         });
-        const wa = c(() => {
+        const wt = p(() => {
             try {
               const e = new Map();
-              ba.value.forEach((a) => {
-                e.has(a.id) || e.set(a.id, new Set()), e.get(a.id).add(a.type);
+              bt.value.forEach((t) => {
+                e.has(t.id) || e.set(t.id, new Set()), e.get(t.id).add(t.type);
               });
-              const a = [];
-              for (const [t, l] of e.entries())
-                [1, 2, 3, 4].every((e) => l.has(e)) && a.push(t);
-              return a;
+              const t = [];
+              for (const [a, l] of e.entries())
+                [1, 2, 3, 4].every((e) => l.has(e)) && t.push(a);
+              return t;
             } catch (e) {
               return [];
             }
           }),
-          Ia = (a = !1) => {
-            a
-              ? (ia.value.push(ra.value), na.value.push(pa.value), ca.value++)
-              : ((ca.value = 1), (na.value = []), (ia.value = [])),
-              (pa.value = 0),
-              (oa.value = !1),
+          It = (t = !1) => {
+            t
+              ? (it.value.push(nt.value), rt.value.push(ct.value), pt.value++)
+              : ((pt.value = 1), (rt.value = []), (it.value = [])),
+              (ct.value = 0),
+              (st.value = !1),
               (Ze.value = "game"),
-              (ea.value = `game-tips-${ca.value}`),
-              (da.value = !1),
-              (va.value = !1),
-              (fa.value = ((a) => {
-                let t;
+              (et.value = `game-tips-${pt.value}`),
+              (dt.value = !1),
+              (vt.value = !1),
+              (ft.value = ((t) => {
+                let a;
                 return (
-                  1 === a
-                    ? (t = [
+                  1 === t
+                    ? (a = [
                         {
                           type: 6,
                           scale: 0.5,
@@ -317,8 +357,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           dead: 0,
                         },
                       ])
-                    : 2 === a
-                    ? (t = [
+                    : 2 === t
+                    ? (a = [
                         {
                           type: 6,
                           scale: 0.5,
@@ -421,8 +461,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           dead: 0,
                         },
                       ])
-                    : 3 === a
-                    ? (t = [
+                    : 3 === t
+                    ? (a = [
                         {
                           type: 6,
                           scale: 0.5,
@@ -557,8 +597,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           dead: 0,
                         },
                       ])
-                    : 4 === a
-                    ? (t = [
+                    : 4 === t
+                    ? (a = [
                         {
                           type: 6,
                           scale: 0.5,
@@ -677,8 +717,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           dead: 0,
                         },
                       ])
-                    : 5 === a
-                    ? (t = [
+                    : 5 === t
+                    ? (a = [
                         {
                           type: 9,
                           scale: 0.55,
@@ -705,7 +745,6 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           left: 250,
                           dead: 0,
                           score: 1,
-                          gift: 1,
                         },
                         {
                           type: 6,
@@ -815,8 +854,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           dead: 0,
                         },
                       ])
-                    : 6 === a
-                    ? (t = [
+                    : 6 === t
+                    ? (a = [
                         {
                           type: 9,
                           scale: 0.6,
@@ -852,7 +891,6 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           left: 200,
                           dead: 0,
                           score: 1,
-                          gift: 1,
                         },
                         {
                           type: 7,
@@ -938,8 +976,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           dead: 0,
                         },
                       ])
-                    : 7 === a
-                    ? (t = [
+                    : 7 === t
+                    ? (a = [
                         {
                           type: 7,
                           scale: 0.5,
@@ -1044,8 +1082,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           dead: 0,
                         },
                       ])
-                    : 8 === a
-                    ? (t = [
+                    : 8 === t
+                    ? (a = [
                         {
                           type: 7,
                           scale: 0.5,
@@ -1062,7 +1100,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           top: 550,
                           left: 600,
                           dead: 0,
-                          gift: 1,
+                          score: 1,
                         },
                         {
                           type: 7,
@@ -1176,8 +1214,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           dead: 0,
                         },
                       ])
-                    : 9 === a &&
-                      (t = [
+                    : 9 === t
+                    ? (a = [
                         {
                           type: 7,
                           scale: 0.5,
@@ -1185,7 +1223,6 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           top: 90,
                           left: 550,
                           dead: 0,
-                          gift: 1,
                           score: 1,
                         },
                         {
@@ -1204,7 +1241,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           top: 550,
                           left: 600,
                           dead: 0,
-                          gift: 3,
+                          score: 1,
                         },
                         {
                           type: 6,
@@ -1308,94 +1345,427 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           left: 80,
                           dead: 0,
                         },
+                      ])
+                    : 10 === t
+                    ? (a = [
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 20,
+                          left: 160,
+                          dead: 0,
+                        },
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 150,
+                          left: 30,
+                          dead: 0,
+                        },
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 150,
+                          left: 500,
+                          dead: 0,
+                        },
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 700,
+                          left: 100,
+                          dead: 0,
+                        },
+                        {
+                          type: 7,
+                          scale: 0.55,
+                          rotate: 0,
+                          top: 250,
+                          left: 120,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 7,
+                          scale: 0.55,
+                          rotate: 0,
+                          top: 400,
+                          left: 600,
+                          dead: 0,
+                          gift: 3,
+                        },
+                        {
+                          type: 13,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 400,
+                          left: 50,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 12,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 280,
+                          left: 570,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 11,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 600,
+                          left: 570,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 14,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 530,
+                          left: 150,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 9,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 600,
+                          left: 350,
+                          dead: 0,
+                          score: 1,
+                        },
+                        { type: 5, dead: 0, score: 1, top: -80, left: 320 },
+                        { type: 5, dead: 0, score: 1, top: 170, left: 200 },
+                      ])
+                    : 11 === t
+                    ? (a = [
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 20,
+                          left: 160,
+                          dead: 0,
+                        },
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 150,
+                          left: 30,
+                          dead: 0,
+                        },
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 150,
+                          left: 500,
+                          dead: 0,
+                        },
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 700,
+                          left: 100,
+                          dead: 0,
+                        },
+                        {
+                          type: 7,
+                          scale: 0.55,
+                          rotate: 0,
+                          top: 250,
+                          left: 120,
+                          dead: 0,
+                          gift: 3,
+                        },
+                        {
+                          type: 7,
+                          scale: 0.55,
+                          rotate: 0,
+                          top: 400,
+                          left: 600,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 9,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 400,
+                          left: 50,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 10,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 600,
+                          left: 570,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 11,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 550,
+                          left: 150,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 12,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 600,
+                          left: 350,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 5,
+                          dead: 0,
+                          score: 1,
+                          top: -80,
+                          left: 320,
+                          move: 1,
+                          p: "1",
+                        },
+                        {
+                          type: 5,
+                          dead: 0,
+                          score: 1,
+                          top: 170,
+                          left: 200,
+                          move: 1,
+                          p: "2",
+                        },
+                        {
+                          type: 5,
+                          dead: 0,
+                          score: 1,
+                          top: 330,
+                          left: 150,
+                          move: 1,
+                          p: "3",
+                        },
+                      ])
+                    : 12 === t &&
+                      (a = [
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 220,
+                          left: 180,
+                          dead: 0,
+                        },
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 0,
+                          left: 30,
+                          dead: 0,
+                        },
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 0,
+                          left: 500,
+                          dead: 0,
+                        },
+                        {
+                          type: 2,
+                          scale: 0.7,
+                          rotate: 0,
+                          top: 700,
+                          left: 100,
+                          dead: 0,
+                        },
+                        {
+                          type: 7,
+                          scale: 0.55,
+                          rotate: 0,
+                          top: 60,
+                          left: 150,
+                          dead: 0,
+                          gift: 3,
+                        },
+                        {
+                          type: 7,
+                          scale: 0.55,
+                          rotate: 0,
+                          top: 380,
+                          left: 420,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 9,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 150,
+                          left: 20,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 10,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 280,
+                          left: 570,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 11,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 550,
+                          left: 60,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 12,
+                          scale: 0.5,
+                          rotate: 0,
+                          top: 530,
+                          left: 580,
+                          dead: 0,
+                          score: 1,
+                        },
+                        {
+                          type: 5,
+                          dead: 0,
+                          score: 1,
+                          top: 20,
+                          left: 320,
+                          move: 1,
+                          p: "1",
+                        },
+                        {
+                          type: 5,
+                          dead: 0,
+                          score: 1,
+                          top: 270,
+                          left: -50,
+                          move: 1,
+                          p: "2",
+                        },
+                        {
+                          type: 5,
+                          dead: 0,
+                          score: 1,
+                          top: 470,
+                          left: 110,
+                          move: 1,
+                          p: "3",
+                        },
                       ]),
-                  e(JSON.parse(JSON.stringify(t)))
+                  e(JSON.parse(JSON.stringify(a)))
                 );
-              })(ca.value)),
-              Sa();
+              })(pt.value)),
+              jt();
           },
-          Sa = () => {
-            $a && clearInterval($a),
-              ($a = null),
-              (ra.value = Xe.value.levelTime[ca.value - 1]),
-              ($a = setInterval(() => {
-                ea.value || ra.value--,
-                  ra.value <= 0 &&
-                    ($a && clearInterval($a), ($a = null), Ta(!1));
+          jt = () => {
+            $t && clearInterval($t),
+              ($t = null),
+              (nt.value = Xe.value.levelTime[pt.value - 1]),
+              ($t = setInterval(() => {
+                et.value || nt.value--,
+                  nt.value <= 0 &&
+                    ($t && clearInterval($t), ($t = null), Bt(!1));
               }, 1e3));
           },
-          _a = () => {
+          St = () => {
             let e = document.getElementById("hand-check"),
-              a = document.getElementById("hand-box");
-            if (!e || !a) return;
-            const t = window.getComputedStyle(a).height;
+              t = document.getElementById("hand-box");
+            if (!e || !t) return;
+            const a = window.getComputedStyle(t).height;
             let l = e.getBoundingClientRect();
-            const { x: s, y: o, width: d } = l;
-            if (1 === sa.value) {
-              if (s < 0 || s + d > 750 || "1120px" === t)
-                return void (sa.value = 2);
+            const { x: o, y: s, width: d } = l;
+            if (1 === ot.value) {
+              if (o < 0 || o + d > 750 || "1120px" === a)
+                return void (ot.value = 2);
               {
                 let e = document.getElementById("game-main"),
-                  a = document.getElementById("hand-dot");
-                if (!e || !a) return;
-                const t = a.getBoundingClientRect(),
-                  { x: l, y: s } = t;
-                Array.from(e.children).forEach((e, a) => {
-                  const t = e.getBoundingClientRect(),
-                    { left: o, right: d, bottom: c, top: p } = t;
-                  if (!fa.value[a].dead && l > o && l < d && s > p && s < c)
+                  t = document.getElementById("hand-dot");
+                if (!e || !t) return;
+                const a = t.getBoundingClientRect(),
+                  { x: l, y: o } = a;
+                Array.from(e.children).forEach((e, t) => {
+                  const a = e.getBoundingClientRect(),
+                    { left: s, right: d, bottom: p, top: c } = a;
+                  if (!ft.value[t].dead && l > s && l < d && o > c && o < p)
                     return (
-                      (ya.value = fa.value[a]),
-                      (ya.value.dead = 1),
-                      (sa.value = 2),
-                      void (fa.value[a].score || 7 === fa.value[a].type
-                        ? Na("good")
-                        : Na("bad"))
+                      (yt.value = ft.value[t]),
+                      (yt.value.dead = 1),
+                      (ot.value = 2),
+                      void (ft.value[t].score || 7 === ft.value[t].type
+                        ? Nt("good")
+                        : Nt("bad"))
                     );
                 });
               }
             } else
-              2 === sa.value &&
-                Math.abs(parseInt(t) - parseInt("100px")) <= 5 &&
-                La();
+              2 === ot.value &&
+                Math.abs(parseInt(a) - parseInt("100px")) <= 5 &&
+                Lt();
           },
-          La = () => {
+          Lt = () => {
             if (
-              (xa && clearInterval(xa),
-              (xa = null),
-              (sa.value = 0),
-              ya.value && !da.value)
+              (xt && clearInterval(xt),
+              (xt = null),
+              (ot.value = 0),
+              yt.value && !dt.value)
             ) {
-              const { type: e, score: a = 0, gift: t = 0 } = ya.value;
-              if (((pa.value += a), 2 === t))
-                for (let l = 0; l < fa.value.length; l++)
+              const { type: e, score: t = 0, gift: a = 0 } = yt.value;
+              if (((ct.value += t), 2 === a)) {
+                for (let l = 0; l < ft.value.length; l++)
                   if (
-                    7 !== fa.value[l].type &&
-                    !fa.value[l].dead &&
-                    !fa.value[l].score
+                    7 !== ft.value[l].type &&
+                    !ft.value[l].dead &&
+                    !ft.value[l].score
                   ) {
-                    Ba(l);
+                    _t(l);
                     break;
                   }
+              } else 3 === a && (nt.value += Xe.value.giftTime);
               setTimeout(() => {
-                ya.value = null;
+                yt.value = null;
               }, 100);
             }
           },
-          Ba = (e) => {
-            const a = document.getElementById("hand-dot"),
-              t = document.getElementById(`icon-index-${e}`);
-            if (!a || !t) return;
-            const l = fa.value[e],
-              s = a.getBoundingClientRect(),
+          _t = (e) => {
+            const t = document.getElementById("hand-dot"),
+              a = document.getElementById(`icon-index-${e}`);
+            if (!t || !a) return;
+            const l = ft.value[e],
               o = t.getBoundingClientRect(),
-              { left: d, top: c } = o;
-            (ma.value = { target: l, startRect: s, endRect: o }),
-              j(() => {
+              s = a.getBoundingClientRect(),
+              { left: d, top: p } = s;
+            (mt.value = { target: l, startRect: o, endRect: s }),
+              R(() => {
                 const e = document.getElementById("game-fly");
                 if (!e) return;
                 e.animate(
-                  [{ top: c + "px", left: d + "px", rotate: "360deg" }],
+                  [{ top: p + "px", left: d + "px", rotate: "360deg" }],
                   {
                     duration: Xe.value.speedFly,
                     iterations: 1,
@@ -1403,142 +1773,142 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                     fill: "forwards",
                   }
                 ).onfinish = () => {
-                  (ma.value = null), (l.dead = 1);
+                  (mt.value = null), (l.dead = 1);
                 };
               });
           },
-          Ea = (e) => {
-            (ea.value = e), "pause" === e && (oa.value = !0);
+          Tt = (e) => {
+            (et.value = e), "pause" === e && (st.value = !0);
           },
-          Ta = (e = !1) => {
-            $a && clearInterval($a),
-              ($a = null),
-              (da.value = !0),
-              (va.value = e),
-              ia.value.push(ra.value),
-              na.value.push(pa.value);
-            const a = 10 * ca.value + pa.value,
-              t = ia.value.reduce((e, a) => e + a, 0);
+          Bt = (e = !1) => {
+            $t && clearInterval($t),
+              ($t = null),
+              (dt.value = !0),
+              (vt.value = e),
+              it.value.push(nt.value),
+              rt.value.push(ct.value);
+            const t = 10 * pt.value + ct.value,
+              a = it.value.reduce((e, t) => e + t, 0);
             let l = 0;
-            (l += ca.value * Xe.value.everyLevelScore),
+            (l += pt.value * Xe.value.everyLevelScore),
               (l +=
-                na.value.reduce((e, a) => e + a, 0) * Xe.value.everyFindScore),
+                rt.value.reduce((e, t) => e + t, 0) * Xe.value.everyFindScore),
               (l +=
-                ia.value.reduce((e, a) => e + a, 0) * Xe.value.everyTimeScore),
-              (ga.value = l),
-              (ha.value = null);
-            const s = {};
+                it.value.reduce((e, t) => e + t, 0) * Xe.value.everyTimeScore),
+              (gt.value = l),
+              (ht.value = null);
+            const o = {};
             if (e) {
               const e =
-                  Xe.value.puzzleIdList[n(0, Xe.value.puzzleIdList.length - 1)],
-                a = n(1, 4);
-              (ha.value = { id: e, type: a }),
-                (ea.value = "puzzle"),
-                (s.puzzle = { ...ha.value });
-            } else ea.value = e ? "success" : "fail";
-            r({
+                  Xe.value.puzzleIdList[r(0, Xe.value.puzzleIdList.length - 1)],
+                t = r(1, 4);
+              (ht.value = { id: e, type: t }),
+                (et.value = "puzzle"),
+                (o.puzzle = { ...ht.value });
+            } else et.value = e ? "success" : "fail";
+            n({
               ownerUnionid: M,
-              activityKey: R,
+              activityKey: E,
               gameScore: l,
-              levelNum: a,
-              playTime: t,
-              k: Ve,
-              s: A({ k: Ve, unionid: M, score: l, level: a }),
-              extra: s,
+              levelNum: t,
+              playTime: a,
+              k: We,
+              s: A({ k: We, unionid: M, score: l, level: t }),
+              extra: o,
             }).then(() => {
-              Ka(), ja();
+              Kt(), Rt();
             });
           },
-          Ra = (e) => {
-            (ea.value = ""),
-              (oa.value = !1),
+          Et = (e) => {
+            (et.value = ""),
+              (st.value = !1),
               1 === e
-                ? ((Ze.value = "mm"), $a && clearInterval($a), ($a = null))
-                : 2 === e && Ia();
+                ? ((Ze.value = "mm"), $t && clearInterval($t), ($t = null))
+                : 2 === e && It();
           },
-          ja = () => {
+          Rt = () => {
             Xe.value.showRank &&
-              i({ activityKey: R, periodNum: F, unionid: M, k: Ve }).then(
-                ({ code: e, data: a }) => {
-                  aa.value = a;
+              i({ activityKey: E, periodNum: F, unionid: M, k: We }).then(
+                ({ code: e, data: t }) => {
+                  tt.value = t;
                 }
               );
           },
-          Ka = () => {
-            u({ activityKey: R, periodNum: F, ownerUnionid: M }).then(
-              ({ code: e, data: a }) => {
-                if (null == a ? void 0 : a.length) {
+          Kt = () => {
+            u({ activityKey: E, periodNum: F, ownerUnionid: M }).then(
+              ({ code: e, data: t }) => {
+                if (null == t ? void 0 : t.length) {
                   const e = [];
-                  a.map((a) => {
-                    var t;
-                    (null == (t = null == a ? void 0 : a.extra)
+                  t.map((t) => {
+                    var a;
+                    (null == (a = null == t ? void 0 : t.extra)
                       ? void 0
-                      : t.puzzle) && e.push(a.extra.puzzle);
+                      : a.puzzle) && e.push(t.extra.puzzle);
                   });
-                  const t = new Map();
+                  const a = new Map();
                   e.forEach((e) => {
-                    const a = `${e.id}_${e.type}`;
-                    t.has(a) ? t.get(a).count++ : t.set(a, { ...e, count: 1 });
+                    const t = `${e.id}_${e.type}`;
+                    a.has(t) ? a.get(t).count++ : a.set(t, { ...e, count: 1 });
                   }),
-                    (ba.value = Array.from(t.values()));
+                    (bt.value = Array.from(a.values()));
                 }
               }
             );
           },
-          Na = (e, a = !1) => {
-            K(za, e, a);
+          Nt = (e, t = !1) => {
+            K(zt, e, t);
           },
-          Fa = (e) => {
-            const a = (1e3 * (1 - ta.value)) / 1.3;
-            if ("game-main" === e) return { bottom: `-${a}px` };
-            if ("game-bg" === e) return { top: -a + "px" };
+          Ft = (e) => {
+            const t = (1e3 * (1 - at.value)) / 1.3;
+            if ("game-main" === e) return { bottom: `-${t}px` };
+            if ("game-bg" === e) return { top: -t + "px" };
             if ("game-top" === e) {
               let e = 1100;
               return (
                 N() && ((e = 990), window.innerHeight >= 1710 && (e = 1100)),
-                { bottom: e - 1.08 * a + "px" }
+                { bottom: e - 1.08 * t + "px" }
               );
             }
           },
-          Ma = (e) => {
-            Pe.onSaveImage(e)
+          Mt = (e) => {
+            Qe.onSaveImage(e)
               .then((e) => {
-                Oa(e);
+                Ot(e);
               })
               .catch((e) => {
-                Oa(e);
+                Ot(e);
               });
           },
-          Oa = (e) => {
-            qe.$Message.success(e);
+          Ot = (e) => {
+            Pe.$Message.success(e);
           };
         return (
           v(() => {
-            var e, a;
-            (R = (null == (e = Qe.meta) ? void 0 : e.activityKey) ?? "202507"),
-              (F = (null == (a = Qe.meta) ? void 0 : a.periodNum) ?? 1),
-              f({ activityKey: R }).then(({ code: e, data: a }) => {
+            var e, t;
+            (E = (null == (e = Ve.meta) ? void 0 : e.activityKey) ?? "202507"),
+              (F = (null == (t = Ve.meta) ? void 0 : t.periodNum) ?? 1),
+              f({ activityKey: E }).then(({ code: e, data: t }) => {
                 0 === e &&
-                  ((Ve = a.k), a.extra && (Xe.value = a.extra), Ka(), ja());
+                  ((We = t.k), t.extra && (Xe.value = t.extra), Kt(), Rt());
               }),
-              Pe.ready(() => {
-                var e, a, t;
-                Na("bgm", !0),
-                  Pe.updateShareData({
-                    title: (null == (e = Qe.meta) ? void 0 : e.title) ?? "",
-                    desc: (null == (a = Qe.meta) ? void 0 : a.desc) ?? "",
-                    link: location.origin + Qe.path,
-                    imgUrl: (null == (t = Qe.meta) ? void 0 : t.imgUrl) ?? "",
+              Qe.ready(() => {
+                var e, t, a;
+                Nt("bgm", !0),
+                  Qe.updateShareData({
+                    title: (null == (e = Ve.meta) ? void 0 : e.title) ?? "",
+                    desc: (null == (t = Ve.meta) ? void 0 : t.desc) ?? "",
+                    link: location.origin + Ve.path,
+                    imgUrl: (null == (a = Ve.meta) ? void 0 : a.imgUrl) ?? "",
                   }),
                   document.addEventListener("visibilitychange", (e) => {
-                    document.hidden ? y() : za.volume && Na("bgm", !0);
+                    document.hidden ? y() : zt.volume && Nt("bgm", !0);
                   });
               });
           }),
-          (e, a) => (
+          (e, t) => (
             m(),
             g(
-              _,
+              S,
               null,
               [
                 k("div", D, [
@@ -1549,49 +1919,49 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                       default: b(() => [
                         "mm" == Ze.value
                           ? (m(),
-                            g("div", G, [
-                              H,
+                            g("div", H, [
+                              q,
                               k(
                                 "div",
                                 {
                                   class: "mm-role-box",
-                                  style: $(`transform:scale(${ta.value})`),
+                                  style: $(`transform:scale(${at.value})`),
                                 },
-                                W,
+                                G,
                                 4
                               ),
-                              q,
-                              k("div", P, [
+                              P,
+                              k("div", Q, [
                                 k("span", {
                                   class: "btn-start",
                                   onClick:
-                                    a[0] ||
-                                    (a[0] = (e) => (
-                                      (Ze.value = "game"), void Ia()
+                                    t[0] ||
+                                    (t[0] = (e) => (
+                                      (Ze.value = "game"), void It()
                                     )),
                                 }),
                                 k("span", {
                                   class: "btn-rule",
-                                  onClick: a[1] || (a[1] = (e) => Ea("rule")),
+                                  onClick: t[1] || (t[1] = (e) => Tt("rule")),
                                 }),
                               ]),
-                              k("div", Q, [
+                              k("div", V, [
                                 k("div", {
                                   class: "btn-record",
-                                  onClick: a[2] || (a[2] = (e) => Ea("record")),
+                                  onClick: t[2] || (t[2] = (e) => Tt("record")),
                                 }),
                                 k("div", {
                                   class: "btn-date",
-                                  onClick: a[3] || (a[3] = (e) => Ea("date")),
+                                  onClick: t[3] || (t[3] = (e) => Tt("date")),
                                 }),
                                 k("div", {
                                   class: "btn-rank",
                                   onClick:
-                                    a[4] ||
-                                    (a[4] = (e) =>
+                                    t[4] ||
+                                    (t[4] = (e) =>
                                       x(Xe).showRank
-                                        ? Ea("rank")
-                                        : Oa(
+                                        ? Tt("rank")
+                                        : Ot(
                                             "「狂野」排行榜将在7月14日开启哦！"
                                           )),
                                 }),
@@ -1617,11 +1987,11 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                   key: 0,
                                   id: "game",
                                   class: w({
-                                    "moving-down": 1 === sa.value,
-                                    "moving-up": 2 === sa.value,
-                                    "has-fish": ya.value,
+                                    "moving-down": 1 === ot.value,
+                                    "moving-up": 2 === ot.value,
+                                    "has-fish": yt.value,
                                     "moving-up-solw":
-                                      ya.value && ya.value.type <= 4,
+                                      yt.value && yt.value.type <= 4,
                                   }),
                                 },
                                 [
@@ -1630,9 +2000,9 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                     {
                                       class: w([
                                         "game-bg",
-                                        `bg-game-${x(Xe).skin[ca.value - 1]}`,
+                                        `bg-game-${x(Xe).skin[pt.value - 1]}`,
                                       ]),
-                                      style: $(Fa("game-bg")),
+                                      style: $(Ft("game-bg")),
                                     },
                                     null,
                                     6
@@ -1641,7 +2011,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                     "div",
                                     {
                                       id: "game-top",
-                                      style: $(Fa("game-top")),
+                                      style: $(Ft("game-top")),
                                     },
                                     [
                                       k(
@@ -1649,22 +2019,22 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                         {
                                           id: "game-role",
                                           class: w([
-                                            { rotate: !sa.value && !ea.value },
-                                            `level-${ca.value}`,
+                                            { rotate: !ot.value && !et.value },
+                                            `level-${pt.value}`,
                                           ]),
                                         },
                                         [
-                                          V,
+                                          W,
                                           I(k("span", X, null, 512), [
-                                            [S, 2 !== sa.value],
+                                            [j, 2 !== ot.value],
                                           ]),
                                           I(k("span", Y, null, 512), [
-                                            [S, 2 === sa.value],
+                                            [j, 2 === ot.value],
                                           ]),
                                           k("div", Z, [
                                             ee,
                                             (
-                                              null == (e = ya.value)
+                                              null == (e = yt.value)
                                                 ? void 0
                                                 : e.type
                                             )
@@ -1675,10 +2045,10 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                                     key: 0,
                                                     id: "hand-fish",
                                                     class: w(
-                                                      `icon-d-${ya.value.type}${
-                                                        ya.value.type >= 9 ||
-                                                        5 === ya.value.type ||
-                                                        4 === ya.value.type
+                                                      `icon-d-${yt.value.type}${
+                                                        yt.value.type >= 9 ||
+                                                        5 === yt.value.type ||
+                                                        4 === yt.value.type
                                                           ? "-1"
                                                           : ""
                                                       }`
@@ -1688,11 +2058,11 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                                   2
                                                 ))
                                               : z("", !0),
-                                            ae,
                                             te,
+                                            ae,
                                             le,
                                           ]),
-                                          se,
+                                          oe,
                                         ],
                                         2
                                       ),
@@ -1703,20 +2073,20 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                     "div",
                                     {
                                       id: "game-main",
-                                      style: $(Fa("game-main")),
+                                      style: $(Ft("game-main")),
                                     },
                                     [
                                       (m(!0),
                                       g(
-                                        _,
+                                        S,
                                         null,
                                         L(
-                                          fa.value,
-                                          (e, a) => (
+                                          ft.value,
+                                          (e, t) => (
                                             m(),
                                             g(
-                                              _,
-                                              { key: "fish-" + a },
+                                              S,
+                                              { key: "fish-" + t },
                                               [
                                                 e.move
                                                   ? (m(),
@@ -1724,7 +2094,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                                       "span",
                                                       {
                                                         key: 1,
-                                                        id: "icon-index-" + a,
+                                                        id: "icon-index-" + t,
                                                         class: w([
                                                           `icon-d-${e.type}`,
                                                           `p-${e.p}`,
@@ -1743,7 +2113,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                                       "span",
                                                       {
                                                         key: 0,
-                                                        id: "icon-index-" + a,
+                                                        id: "icon-index-" + t,
                                                         class: w([
                                                           `icon-d-${e.type}`,
                                                           { dead: e.dead },
@@ -1754,7 +2124,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                                       },
                                                       null,
                                                       14,
-                                                      oe
+                                                      se
                                                     )),
                                               ],
                                               64
@@ -1771,21 +2141,21 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                     {
                                       id: "game-touch",
                                       onTouchstart:
-                                        a[5] ||
-                                        (a[5] = (e) => {
-                                          sa.value ||
-                                            ((sa.value = 1),
-                                            (ya.value = null),
-                                            (xa = setInterval(() => {
-                                              _a();
+                                        t[5] ||
+                                        (t[5] = (e) => {
+                                          ot.value ||
+                                            ((ot.value = 1),
+                                            (yt.value = null),
+                                            (xt = setInterval(() => {
+                                              St();
                                             }, 50)),
-                                            Na("hand-down"));
+                                            Nt("hand-down"));
                                         }),
                                     },
                                     null,
                                     32
                                   ),
-                                  ma.value
+                                  mt.value
                                     ? (m(),
                                       g(
                                         "div",
@@ -1794,7 +2164,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                           id: "game-fly",
                                           class: "icon-d-8",
                                           style: $(
-                                            `\n                    top:${ma.value.startRect.top}px;\n                    left:${ma.value.startRect.left}px;\n                `
+                                            `\n                    top:${mt.value.startRect.top}px;\n                    left:${mt.value.startRect.left}px;\n                `
                                           ),
                                         },
                                         null,
@@ -1804,16 +2174,16 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                   k("span", {
                                     class: "btn-pause",
                                     onClick:
-                                      a[6] ||
-                                      (a[6] = B((e) => Ea("pause"), ["stop"])),
+                                      t[6] ||
+                                      (t[6] = _((e) => Tt("pause"), ["stop"])),
                                   }),
-                                  k("span", ce, E(ra.value) + "s", 1),
+                                  k("span", pe, T(nt.value) + "s", 1),
                                   k(
                                     "span",
-                                    pe,
-                                    E(pa.value) +
+                                    ce,
+                                    T(ct.value) +
                                       " / " +
-                                      E(x(Xe).levelScore[ca.value - 1]),
+                                      T(x(Xe).levelScore[pt.value - 1]),
                                     1
                                   ),
                                 ],
@@ -1828,26 +2198,26 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                   I(
                     k(
                       "div",
-                      ne,
+                      re,
                       [
                         h(
                           C,
                           { name: "fade" },
                           {
                             default: b(() => [
-                              "record" === ea.value
+                              "record" === et.value
                                 ? (m(),
-                                  g("div", re, [
+                                  g("div", ne, [
                                     k("div", ie, [
                                       k("div", ue, [
                                         k(
                                           "span",
                                           {
                                             onClick:
-                                              a[7] ||
-                                              (a[7] = (e) => (ka.value = 1)),
+                                              t[7] ||
+                                              (t[7] = (e) => (kt.value = 1)),
                                             class: w({
-                                              active: 1 === ka.value,
+                                              active: 1 === kt.value,
                                             }),
                                           },
                                           "已收集",
@@ -1857,34 +2227,34 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                           "span",
                                           {
                                             onClick:
-                                              a[8] ||
-                                              (a[8] = (e) => (ka.value = 2)),
+                                              t[8] ||
+                                              (t[8] = (e) => (kt.value = 2)),
                                             class: w({
-                                              active: 2 === ka.value,
+                                              active: 2 === kt.value,
                                             }),
                                           },
                                           "已解锁",
                                           2
                                         ),
                                       ]),
-                                      1 === ka.value
+                                      1 === kt.value
                                         ? (m(),
                                           g("div", ve, [
                                             (m(!0),
                                             g(
-                                              _,
+                                              S,
                                               null,
                                               L(
-                                                ba.value,
-                                                (e, a) => (
+                                                bt.value,
+                                                (e, t) => (
                                                   m(),
                                                   g(
                                                     "span",
                                                     {
                                                       class: "recode-item",
-                                                      key: "record-item-" + a,
-                                                      onClick: (a) =>
-                                                        Ma(
+                                                      key: "record-item-" + t,
+                                                      onClick: (t) =>
+                                                        Mt(
                                                           `${x(J)}/w/${e.id}-${
                                                             e.type
                                                           }.png`
@@ -1912,24 +2282,24 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                             )),
                                           ]))
                                         : z("", !0),
-                                      2 === ka.value
+                                      2 === kt.value
                                         ? (m(),
                                           g("div", me, [
                                             (m(!0),
                                             g(
-                                              _,
+                                              S,
                                               null,
                                               L(
-                                                wa.value,
-                                                (e, a) => (
+                                                wt.value,
+                                                (e, t) => (
                                                   m(),
                                                   g(
                                                     "span",
                                                     {
                                                       class: "recode-item",
-                                                      key: "finish-item-" + a,
-                                                      onClick: (a) =>
-                                                        Ma(
+                                                      key: "finish-item-" + t,
+                                                      onClick: (t) =>
+                                                        Mt(
                                                           `${x(J)}/w/${
                                                             x(Xe).puzzleImgList[
                                                               e - 1
@@ -1963,7 +2333,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                         : z("", !0),
                                       k("span", {
                                         class: "dialogs-close",
-                                        onClick: a[9] || (a[9] = (e) => Ea("")),
+                                        onClick: t[9] || (t[9] = (e) => Tt("")),
                                       }),
                                     ]),
                                   ]))
@@ -1977,7 +2347,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           { name: "fade" },
                           {
                             default: b(() => [
-                              "puzzle" === ea.value
+                              "puzzle" === et.value
                                 ? (m(),
                                   g("div", he, [
                                     k("div", be, [
@@ -1986,8 +2356,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                           k(
                                             "img",
                                             {
-                                              src: `${x(J)}/w/${ha.value.id}-${
-                                                ha.value.type
+                                              src: `${x(J)}/w/${ht.value.id}-${
+                                                ht.value.type
                                               }.png`,
                                             },
                                             null,
@@ -1998,30 +2368,30 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                         k("span", {
                                           class: "dialogs-close",
                                           onClick:
-                                            a[10] ||
-                                            (a[10] = (e) =>
-                                              Ea(
-                                                va.value ? "success" : "fail"
+                                            t[10] ||
+                                            (t[10] = (e) =>
+                                              Tt(
+                                                vt.value ? "success" : "fail"
                                               )),
                                         }),
                                         k("span", {
                                           class: "puzzle-save",
                                           onClick:
-                                            a[11] ||
-                                            (a[11] = (e) =>
-                                              Ma(
-                                                `${x(J)}/w/${ha.value.id}-${
-                                                  ha.value.type
+                                            t[11] ||
+                                            (t[11] = (e) =>
+                                              Mt(
+                                                `${x(J)}/w/${ht.value.id}-${
+                                                  ht.value.type
                                                 }.png`
                                               )),
                                         }),
                                         k("span", {
                                           class: "puzzle-back",
                                           onClick:
-                                            a[12] ||
-                                            (a[12] = (e) =>
-                                              Ea(
-                                                va.value ? "success" : "fail"
+                                            t[12] ||
+                                            (t[12] = (e) =>
+                                              Tt(
+                                                vt.value ? "success" : "fail"
                                               )),
                                         }),
                                       ]),
@@ -2037,7 +2407,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           { name: "fade" },
                           {
                             default: b(() => [
-                              "rule" === ea.value
+                              "rule" === et.value
                                 ? (m(),
                                   g(
                                     "div",
@@ -2045,9 +2415,9 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                       key: 0,
                                       class: "dialogs-rule",
                                       onClick:
-                                        a[13] ||
-                                        (a[13] = B((e) => Ea(""), ["stop"])),
-                                      style: $(`transform:scale(${la.value})`),
+                                        t[13] ||
+                                        (t[13] = _((e) => Tt(""), ["stop"])),
+                                      style: $(`transform:scale(${lt.value})`),
                                     },
                                     Ce,
                                     4
@@ -2062,7 +2432,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           { name: "fade" },
                           {
                             default: b(() => [
-                              "date" === ea.value
+                              "date" === et.value
                                 ? (m(),
                                   g(
                                     "div",
@@ -2070,8 +2440,8 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                       key: 0,
                                       class: "dialogs-date",
                                       onClick:
-                                        a[14] ||
-                                        (a[14] = B((e) => Ea(""), ["stop"])),
+                                        t[14] ||
+                                        (t[14] = _((e) => Tt(""), ["stop"])),
                                     },
                                     we
                                   ))
@@ -2085,28 +2455,28 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           { name: "fade" },
                           {
                             default: b(() => [
-                              "rank" === ea.value
+                              "rank" === et.value
                                 ? (m(),
                                   g(
                                     "div",
                                     {
                                       key: 0,
-                                      style: $(`transform:scale(${la.value})`),
+                                      style: $(`transform:scale(${lt.value})`),
                                     },
                                     [
                                       k("div", Ie, [
                                         k("span", {
                                           class: "rank-close",
                                           onClick:
-                                            a[15] || (a[15] = (e) => Ea("")),
+                                            t[15] || (t[15] = (e) => Tt("")),
                                         }),
-                                        k("div", Se, [
+                                        k("div", je, [
                                           (m(!0),
                                           g(
-                                            _,
+                                            S,
                                             null,
-                                            L(aa.value, (e, a) => {
-                                              var t;
+                                            L(tt.value, (e, t) => {
+                                              var a;
                                               return (
                                                 m(),
                                                 g(
@@ -2114,38 +2484,38 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                                   {
                                                     class: w([
                                                       "rank-item",
-                                                      `num-rank-head-${a + 1}`,
+                                                      `num-rank-head-${t + 1}`,
                                                     ]),
-                                                    key: "rank-item-" + a,
+                                                    key: "rank-item-" + t,
                                                   },
                                                   [
-                                                    _e,
+                                                    Se,
                                                     k(
                                                       "span",
                                                       Le,
-                                                      E(
+                                                      T(
                                                         (null ==
-                                                        (t = e.userInfo)
+                                                        (a = e.userInfo)
                                                           ? void 0
-                                                          : t.nickname) ?? ""
+                                                          : a.nickname) ?? ""
                                                       ),
                                                       1
                                                     ),
-                                                    k("span", Be, [
+                                                    k("span", _e, [
                                                       (m(!0),
                                                       g(
-                                                        _,
+                                                        S,
                                                         null,
                                                         L(
                                                           e.gameScore + "",
-                                                          (e, a) => (
+                                                          (e, t) => (
                                                             m(),
                                                             g(
                                                               "i",
                                                               {
                                                                 key:
                                                                   "topbar-score-" +
-                                                                  a,
+                                                                  t,
                                                                 class: w(
                                                                   `num-rank-${e}`
                                                                 ),
@@ -2157,7 +2527,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                                         ),
                                                         128
                                                       )),
-                                                      Ee,
+                                                      Te,
                                                     ]),
                                                   ],
                                                   2
@@ -2181,23 +2551,23 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           { name: "fade" },
                           {
                             default: b(() => [
-                              ["success", "fail"].includes(ea.value)
+                              ["success", "fail"].includes(et.value)
                                 ? (m(),
-                                  g("div", Te, [
-                                    k("div", Re, [
+                                  g("div", Be, [
+                                    k("div", Ee, [
                                       k(
                                         "span",
                                         {
                                           class: w([
                                             "game-over-title",
-                                            `icon-${ea.value}-title`,
+                                            `icon-${et.value}-title`,
                                           ]),
                                         },
                                         [
                                           k(
                                             "span",
-                                            je,
-                                            "本次得分为：" + E(ga.value),
+                                            Re,
+                                            "本次得分为：" + T(gt.value),
                                             1
                                           ),
                                         ],
@@ -2208,7 +2578,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                         {
                                           class: w([
                                             "game-over-role",
-                                            `icon-${ea.value}-role`,
+                                            `icon-${et.value}-role`,
                                           ]),
                                         },
                                         null,
@@ -2217,7 +2587,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                       k("span", {
                                         class: "btn-back",
                                         onClick:
-                                          a[16] || (a[16] = (e) => Ra(1)),
+                                          t[16] || (t[16] = (e) => Et(1)),
                                       }),
                                     ]),
                                   ]))
@@ -2231,19 +2601,19 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           { name: "fade" },
                           {
                             default: b(() => [
-                              "pause" === ea.value
+                              "pause" === et.value
                                 ? (m(),
                                   g("div", Ke, [
                                     k("div", Ne, [
                                       k("span", {
                                         class: "btn-pause-home",
                                         onClick:
-                                          a[17] || (a[17] = (e) => Ra(1)),
+                                          t[17] || (t[17] = (e) => Et(1)),
                                       }),
                                       k("span", {
                                         class: "btn-pause-continue",
                                         onClick:
-                                          a[18] || (a[18] = (e) => Ra(3)),
+                                          t[18] || (t[18] = (e) => Et(3)),
                                       }),
                                     ]),
                                   ]))
@@ -2257,22 +2627,22 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           { name: "fade" },
                           {
                             default: b(() => [
-                              -1 !== ea.value.indexOf("game-tips")
+                              -1 !== et.value.indexOf("game-tips")
                                 ? (m(),
                                   g(
                                     "div",
                                     {
                                       key: 0,
                                       onClick:
-                                        a[19] ||
-                                        (a[19] = B(
+                                        t[19] ||
+                                        (t[19] = _(
                                           (e) =>
-                                            Ea(
-                                              1 === ca.value
-                                                ? "game-tips-1" === ea.value
+                                            Tt(
+                                              1 === pt.value
+                                                ? "game-tips-1" === et.value
                                                   ? "game-tips-guide-1"
                                                   : "game-tips-guide-1" ===
-                                                    ea.value
+                                                    et.value
                                                   ? "game-tips-guide-2"
                                                   : ""
                                                 : ""
@@ -2281,16 +2651,16 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                         )),
                                     },
                                     [
-                                      -1 !== ea.value.indexOf("guide")
+                                      -1 !== et.value.indexOf("guide")
                                         ? (m(),
                                           g(
-                                            _,
+                                            S,
                                             { key: 0 },
                                             [
-                                              "game-tips-guide-1" === ea.value
+                                              "game-tips-guide-1" === et.value
                                                 ? (m(), g("div", Fe))
                                                 : z("", !0),
-                                              "game-tips-guide-2" === ea.value
+                                              "game-tips-guide-2" === et.value
                                                 ? (m(), g("div", Me))
                                                 : z("", !0),
                                             ],
@@ -2301,7 +2671,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                             k(
                                               "span",
                                               Ue,
-                                              "第" + E(ca.value) + "关",
+                                              "第" + T(pt.value) + "关",
                                               1
                                             ),
                                             k(
@@ -2310,7 +2680,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                                 class: w([
                                                   "game-tips-title-icon",
                                                   `icon-t-${
-                                                    x(Xe).skin[ca.value - 1]
+                                                    x(Xe).skin[pt.value - 1]
                                                   }`,
                                                 ]),
                                               },
@@ -2318,28 +2688,28 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                               2
                                             ),
                                             k("div", Ae, [
-                                              T(
+                                              B(
                                                 " 本关时间" +
-                                                  E(
+                                                  T(
                                                     x(Xe).levelTime[
-                                                      ca.value - 1
+                                                      pt.value - 1
                                                     ]
                                                   ) +
                                                   "秒， ",
                                                 1
                                               ),
                                               Je,
-                                              T(
+                                              B(
                                                 " 需要收集" +
-                                                  E(
+                                                  T(
                                                     x(Xe).levetTips[
-                                                      ca.value - 1
+                                                      pt.value - 1
                                                     ][0]
                                                   ) +
                                                   "个碎片和" +
-                                                  E(
+                                                  T(
                                                     x(Xe).levetTips[
-                                                      ca.value - 1
+                                                      pt.value - 1
                                                     ][1]
                                                   ) +
                                                   "同伴 ",
@@ -2359,15 +2729,15 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                           { name: "fade" },
                           {
                             default: b(() => [
-                              ua.value
+                              ut.value
                                 ? (m(),
                                   g(
                                     "div",
                                     {
                                       key: 0,
                                       onClick:
-                                        a[20] ||
-                                        (a[20] = (e) => (ua.value = !1)),
+                                        t[20] ||
+                                        (t[20] = (e) => (ut.value = !1)),
                                     },
                                     De
                                   ))
@@ -2379,13 +2749,13 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                       ],
                       512
                     ),
-                    [[S, ea.value || ua.value]]
+                    [[j, et.value || ut.value]]
                   ),
                 ]),
-                za.audioList.length
+                zt.audioList.length
                   ? (m(),
                     g(
-                      _,
+                      S,
                       { key: 0 },
                       [
                         k(
@@ -2394,11 +2764,11 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                             class: w([
                               "btn-music",
                               [
-                                { active: za.volume },
+                                { active: zt.volume },
                                 { bottom: "game" == Ze.value },
                               ],
                             ]),
-                            onClick: a[21] || (a[21] = (e) => Na("bgm", !0)),
+                            onClick: t[21] || (t[21] = (e) => Nt("bgm", !0)),
                           },
                           null,
                           2
@@ -2406,14 +2776,14 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                         I(
                           k(
                             "div",
-                            Ge,
+                            He,
                             [
                               (m(!0),
                               g(
-                                _,
+                                S,
                                 null,
                                 L(
-                                  za.audioList,
+                                  zt.audioList,
                                   (e) => (
                                     m(),
                                     g(
@@ -2426,7 +2796,7 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                                       },
                                       null,
                                       8,
-                                      He
+                                      qe
                                     )
                                   )
                                 ),
@@ -2435,13 +2805,13 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
                             ],
                             512
                           ),
-                          [[S, !1]]
+                          [[j, !1]]
                         ),
                       ],
                       64
                     ))
                   : z("", !0),
-                We,
+                Ge,
               ],
               64
             )
@@ -2449,6 +2819,6 @@ const J = (e) => (F("data-v-beafcb6c"), (e = e()), M(), e),
         );
       },
     }),
-    [["__scopeId", "data-v-beafcb6c"]]
+    [["__scopeId", "data-v-18f69434"]]
   );
-export { qe as default };
+export { Pe as default };

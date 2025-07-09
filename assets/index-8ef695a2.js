@@ -7346,14 +7346,14 @@ function Su(e) {
             var t, n;
             let r = !1;
             try {
-              //   [
-              //   "192.168.50.119",
-              //   "10.10.112.227",
-              //   "192.168.10.7",
-              //   "localhost",
-              // ].includes(location.hostname)
+              //     [
+              //     "192.168.50.119",
+              //     "10.10.112.227",
+              //     "192.168.10.7",
+              //     "localhost",
+              //   ].includes(location.hostname)
               (true ||
-                ("ofN_u6k80H98YqXrB1gi71xMDXXE" ===
+                ("ofN_u6nBbWm3k8KmgyWetjEKIGaE" ===
                   (null == (t = null == e ? void 0 : e.query) ? void 0 : t.u) &&
                   "lllzc" ===
                     (null == (n = null == e ? void 0 : e.query)
@@ -7365,7 +7365,7 @@ function Su(e) {
             }
             return r;
           })(e)
-          ? su({ unionid: "ofN_u6k80H98YqXrB1gi71xMDXXE" })
+          ? su({ unionid: "ofN_u6nBbWm3k8KmgyWetjEKIGaE" })
               .then((t) => {
                 Ou({ ...t.data }, e, 0, n);
               })
@@ -7405,29 +7405,30 @@ function Su(e) {
     e.onError((e) => {});
 }
 Cu.configure({ showSpinner: !1 });
-let Eu = "https://cpe-app-oss.oss-cn-shenzhen.aliyuncs.com/h5",
-  ju = "https://cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5";
+let Eu = "../cpe-app-oss.oss-cn-shenzhen.aliyuncs.com/h5",
+  ju = "../cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5";
 const ku = [
     // {
     //   path: "/",
     //   name: "index",
     //   redirect: "/index",
-    //   component: () => Mc(() => import("./index-e7fe16a5.js"), []),
+    //   component: () => Mc(() => import("./index-6983583f.js"), []),
     //   meta: { title: "首页" },
     //   children: [],
     // },
     ...[
       {
+        // path: "/202507",
         path: "/:catchAll(.*)*",
         name: "202507",
         component: () =>
           Mc(
-            () => import("./index-1823e78a.js"),
+            () => import("./index-1dfecab0.js"),
             [
-              "assets/index-1823e78a.js",
-              "assets/wxjssdk-85ac63cc.js",
+              "assets/index-1dfecab0.js",
+              "assets/wxjssdk-9207b813.js",
               "assets/sign-54d406fa.js",
-              "assets/index-66205bb9.css",
+              "assets/index-07980bd6.css",
             ]
           ),
         meta: {
@@ -7442,571 +7443,571 @@ const ku = [
         props: [],
         children: [],
       },
-      // {
-      //   path: "/202507-vvv",
-      //   name: "202507-vvv",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-1823e78a.js"),
-      //       [
-      //         "assets/index-1823e78a.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-66205bb9.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "202507",
-      //     periodNum: 1,
-      //     title: "启动！狂野大拯救！",
-      //     desc: "次元突破，狂野驰援！立即加入跨次元拯救行动！",
-      //     hm: "202507",
-      //     imgUrl: ju + "/202507/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/0109-key",
-      //   name: "0109-key",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-d55f5e66.js"),
-      //       [
-      //         "assets/index-d55f5e66.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/utils-e551450d.js",
-      //         "assets/index-4fd21b0a.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "0109-key",
-      //     activityKey0109: "0109",
-      //     periodNum: 1,
-      //     title: "出发！灵熙探秘之旅！",
-      //     desc: "奇侠江湖风云，羊狼萌闯灵熙！这些宝物我只告诉你哦～",
-      //     hm: "0109-key",
-      //     imgUrl: Eu + "/0109-key/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/0109-ball",
-      //   name: "0109-ball",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-4fe8b635.js"),
-      //       [
-      //         "assets/index-4fe8b635.js",
-      //         "assets/lottie-eb7c2c6a.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/utils-e551450d.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-2eca3d68.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "0109-ball",
-      //     activityKey0109: "0109",
-      //     periodNum: 1,
-      //     title: "出发！灵熙探秘之旅！",
-      //     desc: "奇侠江湖风云，羊狼萌闯灵熙！这些宝物我只告诉你哦～",
-      //     hm: "0109-ball",
-      //     imgUrl: Eu + "/0109-ball/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/0109",
-      //   name: "0109",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-b277ae90.js"),
-      //       [
-      //         "assets/index-b277ae90.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/utils-e551450d.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-09385e10.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "0109",
-      //     activityKeyBall: "0109-ball",
-      //     periodNum: 1,
-      //     title: "出发！灵熙探秘之旅！",
-      //     desc: "奇侠江湖风云，羊狼萌闯灵熙！这些宝物我只告诉你哦～",
-      //     hm: "0109",
-      //     imgUrl: Eu + "/0109/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/0109-vvv",
-      //   name: "0109-vvv",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-b277ae90.js"),
-      //       [
-      //         "assets/index-b277ae90.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/utils-e551450d.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-09385e10.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "0109",
-      //     activityKeyBall: "0109-ball",
-      //     periodNum: 1,
-      //     title: "出发！灵熙探秘之旅！",
-      //     desc: "奇侠江湖风云，羊狼萌闯灵熙！这些宝物我只告诉你哦～",
-      //     hm: "0109",
-      //     imgUrl: Eu + "/0109/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/708",
-      //   name: "708",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-9084037a.js"),
-      //       [
-      //         "assets/index-9084037a.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/html2canvas.esm-323b70d4.js",
-      //         "assets/index-db4dbf1f.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "708",
-      //     periodNum: 1,
-      //     title: "测一测你的超能阵营",
-      //     desc: "你隐藏着哪一种潜能？嗷呜之口为你揭晓答案！",
-      //     hm: "708",
-      //     imgUrl: Eu + "/708/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/705",
-      //   name: "705",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-0a4f50e7.js"),
-      //       [
-      //         "assets/index-0a4f50e7.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/lottie-eb7c2c6a.js",
-      //         "assets/index-49c25d46.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "705",
-      //     periodNum: 1,
-      //     title: "呼啦轰隆招生指南",
-      //     desc: "加入羊狼们的欢乐暑假特训，解锁羊守9超前剧透彩蛋！",
-      //     hm: "705",
-      //     imgUrl: Eu + "/705/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/525",
-      //   name: "525",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-b09fbd30.js"),
-      //       [
-      //         "assets/index-b09fbd30.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-f3908863.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "525",
-      //     periodNum: 1,
-      //     title: "超能铃铛奇幻之旅",
-      //     desc: "和“守护者们”一起踏上旅程，解锁神秘彩蛋福利吧！",
-      //     hm: "525",
-      //     imgUrl: Eu + "/525/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/bubble-v2",
-      //   name: "bubble",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-dde145af.js"),
-      //       [
-      //         "assets/index-dde145af.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-7d5486d6.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "bubble",
-      //     periodNum: 1,
-      //     title: "心动泡泡狼",
-      //     desc: "消除泡泡，解锁新春红包封面！",
-      //     hm: "bubble",
-      //     imgUrl: Eu + "/bubble-v2/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/bubble",
-      //   name: "bubble",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-a8b6ca1d.js"),
-      //       [
-      //         "assets/index-a8b6ca1d.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-82b9db99.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "bubble",
-      //     periodNum: 1,
-      //     title: "心动泡泡狼",
-      //     desc: "消除泡泡，解救小狼！",
-      //     hm: "bubble",
-      //     imgUrl: Eu + "/bubble/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/bottle2",
-      //   name: "bottle2",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-5dad5bf5.js"),
-      //       [
-      //         "assets/index-5dad5bf5.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/loupe-0f5cf15f.js",
-      //         "assets/loupe-ad774da5.css",
-      //         "assets/board-f19e3f79.js",
-      //         "assets/oss-dba2aec6.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-b8a1c040.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "bottle2",
-      //     periodNum: 1,
-      //     title: "灵感扭蛋机",
-      //     desc: "和灰太狼一起爆发灵感，探索神奇脑世界吧！",
-      //     hm: "bottle2",
-      //     imgUrl: Eu + "/bottle2/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/bottle2-v1",
-      //   name: "bottle2-v1",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-6fc20439.js"),
-      //       [
-      //         "assets/index-6fc20439.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/loupe-0f5cf15f.js",
-      //         "assets/loupe-ad774da5.css",
-      //         "assets/board-f19e3f79.js",
-      //         "assets/oss-dba2aec6.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-65f103e3.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "bottle2",
-      //     periodNum: 1,
-      //     title: "灵感扭蛋机",
-      //     desc: "和灰太狼一起爆发灵感，探索神奇脑世界吧！",
-      //     hm: "bottle2",
-      //     imgUrl: Eu + "/bottle2/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/2023",
-      //   name: "2023",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-efc97228.js"),
-      //       [
-      //         "assets/index-efc97228.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-0d68c37c.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "2023",
-      //     periodNum: 1,
-      //     title: "2023我在羊村",
-      //     desc: "快来加入羊村守护者，点击生成你的年度羊狼壁纸吧！",
-      //     hm: "2023",
-      //     imgUrl: Eu + "/2023/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/diy",
-      //   name: "diy",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-d2eec33a.js"),
-      //       [
-      //         "assets/index-d2eec33a.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/html2canvas.esm-323b70d4.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/oss-dba2aec6.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-ca66499b.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "diy",
-      //     periodNum: 1,
-      //     title: "羊羊咕宇宙",
-      //     desc: "贴贴小羊咩！在线咕卡想咕咩就咕咩～",
-      //     hm: "diy",
-      //     imgUrl: Eu + "/diy/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/diy-v1",
-      //   name: "diy-v1",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-cc8e4188.js"),
-      //       [
-      //         "assets/index-cc8e4188.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/html2canvas.esm-323b70d4.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/oss-dba2aec6.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-a92f2991.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "diy",
-      //     periodNum: 1,
-      //     title: "羊羊咕宇宙",
-      //     desc: "贴贴小羊咩！在线咕卡想咕咩就咕咩～",
-      //     hm: "diy",
-      //     imgUrl: Eu + "/diy/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/cicf",
-      //   name: "cicf",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-065c8460.js"),
-      //       [
-      //         "assets/index-065c8460.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/index-5dcc09d0.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "AnimeConvention",
-      //     periodNum: 1,
-      //     title: "CICF羊羊宇宙纪念馆",
-      //     desc: "打卡CICF漫展羊羊展位，留下与羊狼们“跨次元”有爱合照！",
-      //     hm: "cicf",
-      //     imgUrl: Eu + "/cicf/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/wolfsburg",
-      //   name: "wolfsburg",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-fc796528.js"),
-      //       [
-      //         "assets/index-fc796528.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/sign-54d406fa.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-e4311d96.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     activityKey: "wolfsburg",
-      //     periodNum: 1,
-      //     title: "狼堡叠高高",
-      //     desc: "你想成为狼王的最佳“堡”卫吗？快来帮助灰太狼为狼堡叠出新高度吧！",
-      //     hm: "wolfsburg",
-      //     imgUrl: Eu + "/wolfsburg/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/wish",
-      //   name: "wish",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-7085f7a5.js"),
-      //       [
-      //         "assets/index-7085f7a5.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-b028f247.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     title: "羊羊心愿树",
-      //     desc: "流星流星我很忙，你有愿望我帮忙~悄悄许下你的小心愿，羊狼让你“愿望成真”！",
-      //     hm: "羊羊十八周年心愿树",
-      //     imgUrl: Eu + "/wish/share.png",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/wish-v1",
-      //   name: "wish-v1",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-8ae39d26.js"),
-      //       [
-      //         "assets/index-8ae39d26.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-9c25dcdf.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     title: "羊羊心愿树",
-      //     desc: "流星流星我很忙，你有愿望我帮忙~悄悄许下你的小心愿，羊狼让你“愿望成真”！",
-      //     hm: "羊羊十八周年心愿树",
-      //     imgUrl: Eu + "/wish/share.png",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/18th-h5",
-      //   name: "18th-h5",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-039e6a70.js"),
-      //       [
-      //         "assets/index-039e6a70.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/index-dcea621d.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     title: "喜羊羊与灰太狼十八周年打卡签到",
-      //     desc: "领取周年限定福利，期待喜灰十八周年庆！",
-      //     hm: "18周年H5签到活动",
-      //     imgUrl: Eu + "/18th-h5/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/drift-bottle",
-      //   name: "drift-bottle",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-61db4bd0.js"),
-      //       [
-      //         "assets/index-61db4bd0.js",
-      //         "assets/wxjssdk-85ac63cc.js",
-      //         "assets/upload-15cc26fc.js",
-      //         "assets/upload-265fc806.css",
-      //         "assets/loupe-0f5cf15f.js",
-      //         "assets/loupe-ad774da5.css",
-      //         "assets/index-39d02dc8.js",
-      //         "assets/index-63e7e8da.css",
-      //       ]
-      //     ),
-      //   meta: {
-      //     login: !0,
-      //     title: "喜灰十八周年漂流瓶",
-      //     desc: "《喜羊羊与灰太狼》十八周年二创活动开始啦！快来制作你的时光漂流瓶吧！",
-      //     hm: "18周年时光漂流瓶",
-      //     imgUrl: Eu + "/drift-bottle/share.jpg",
-      //   },
-      //   props: [],
-      //   children: [],
-      // },
-      // {
-      //   path: "/file-upload",
-      //   name: "file-upload",
-      //   component: () =>
-      //     Mc(
-      //       () => import("./index-1df1bd23.js"),
-      //       [
-      //         "assets/index-1df1bd23.js",
-      //         "assets/upload-15cc26fc.js",
-      //         "assets/upload-265fc806.css",
-      //         "assets/index-078d8ca7.css",
-      //       ]
-      //     ),
-      //   meta: {},
-      //   props: [],
-      //   children: [],
-      // },
+      {
+        path: "/202507-vvv",
+        name: "202507-vvv",
+        component: () =>
+          Mc(
+            () => import("./index-1dfecab0.js"),
+            [
+              "assets/index-1dfecab0.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-07980bd6.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "202507",
+          periodNum: 1,
+          title: "启动！狂野大拯救！",
+          desc: "次元突破，狂野驰援！立即加入跨次元拯救行动！",
+          hm: "202507",
+          imgUrl: ju + "/202507/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/0109-key",
+        name: "0109-key",
+        component: () =>
+          Mc(
+            () => import("./index-cbfe45f1.js"),
+            [
+              "assets/index-cbfe45f1.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/sign-54d406fa.js",
+              "assets/utils-6d5db595.js",
+              "assets/index-4fd21b0a.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "0109-key",
+          activityKey0109: "0109",
+          periodNum: 1,
+          title: "出发！灵熙探秘之旅！",
+          desc: "奇侠江湖风云，羊狼萌闯灵熙！这些宝物我只告诉你哦～",
+          hm: "0109-key",
+          imgUrl: Eu + "/0109-key/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/0109-ball",
+        name: "0109-ball",
+        component: () =>
+          Mc(
+            () => import("./index-f656b906.js"),
+            [
+              "assets/index-f656b906.js",
+              "assets/lottie-031e40e1.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/utils-6d5db595.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-2eca3d68.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "0109-ball",
+          activityKey0109: "0109",
+          periodNum: 1,
+          title: "出发！灵熙探秘之旅！",
+          desc: "奇侠江湖风云，羊狼萌闯灵熙！这些宝物我只告诉你哦～",
+          hm: "0109-ball",
+          imgUrl: Eu + "/0109-ball/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/0109",
+        name: "0109",
+        component: () =>
+          Mc(
+            () => import("./index-80cd8c92.js"),
+            [
+              "assets/index-80cd8c92.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/utils-6d5db595.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-09385e10.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "0109",
+          activityKeyBall: "0109-ball",
+          periodNum: 1,
+          title: "出发！灵熙探秘之旅！",
+          desc: "奇侠江湖风云，羊狼萌闯灵熙！这些宝物我只告诉你哦～",
+          hm: "0109",
+          imgUrl: Eu + "/0109/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/0109-vvv",
+        name: "0109-vvv",
+        component: () =>
+          Mc(
+            () => import("./index-80cd8c92.js"),
+            [
+              "assets/index-80cd8c92.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/utils-6d5db595.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-09385e10.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "0109",
+          activityKeyBall: "0109-ball",
+          periodNum: 1,
+          title: "出发！灵熙探秘之旅！",
+          desc: "奇侠江湖风云，羊狼萌闯灵熙！这些宝物我只告诉你哦～",
+          hm: "0109",
+          imgUrl: Eu + "/0109/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/708",
+        name: "708",
+        component: () =>
+          Mc(
+            () => import("./index-bc027a5b.js"),
+            [
+              "assets/index-bc027a5b.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/html2canvas.esm-323b70d4.js",
+              "assets/index-db4dbf1f.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "708",
+          periodNum: 1,
+          title: "测一测你的超能阵营",
+          desc: "你隐藏着哪一种潜能？嗷呜之口为你揭晓答案！",
+          hm: "708",
+          imgUrl: Eu + "/708/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/705",
+        name: "705",
+        component: () =>
+          Mc(
+            () => import("./index-38b05e3c.js"),
+            [
+              "assets/index-38b05e3c.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/lottie-031e40e1.js",
+              "assets/index-49c25d46.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "705",
+          periodNum: 1,
+          title: "呼啦轰隆招生指南",
+          desc: "加入羊狼们的欢乐暑假特训，解锁羊守9超前剧透彩蛋！",
+          hm: "705",
+          imgUrl: Eu + "/705/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/525",
+        name: "525",
+        component: () =>
+          Mc(
+            () => import("./index-72b0e864.js"),
+            [
+              "assets/index-72b0e864.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-f3908863.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "525",
+          periodNum: 1,
+          title: "超能铃铛奇幻之旅",
+          desc: "和“守护者们”一起踏上旅程，解锁神秘彩蛋福利吧！",
+          hm: "525",
+          imgUrl: Eu + "/525/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/bubble-v2",
+        name: "bubble",
+        component: () =>
+          Mc(
+            () => import("./index-106fcf95.js"),
+            [
+              "assets/index-106fcf95.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-7d5486d6.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "bubble",
+          periodNum: 1,
+          title: "心动泡泡狼",
+          desc: "消除泡泡，解锁新春红包封面！",
+          hm: "bubble",
+          imgUrl: Eu + "/bubble-v2/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/bubble",
+        name: "bubble",
+        component: () =>
+          Mc(
+            () => import("./index-d4f4aa8d.js"),
+            [
+              "assets/index-d4f4aa8d.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-82b9db99.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "bubble",
+          periodNum: 1,
+          title: "心动泡泡狼",
+          desc: "消除泡泡，解救小狼！",
+          hm: "bubble",
+          imgUrl: Eu + "/bubble/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/bottle2",
+        name: "bottle2",
+        component: () =>
+          Mc(
+            () => import("./index-0c9c0ef3.js"),
+            [
+              "assets/index-0c9c0ef3.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/loupe-958a83a9.js",
+              "assets/loupe-ad774da5.css",
+              "assets/board-f19e3f79.js",
+              "assets/oss-6d205324.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-b8a1c040.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "bottle2",
+          periodNum: 1,
+          title: "灵感扭蛋机",
+          desc: "和灰太狼一起爆发灵感，探索神奇脑世界吧！",
+          hm: "bottle2",
+          imgUrl: Eu + "/bottle2/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/bottle2-v1",
+        name: "bottle2-v1",
+        component: () =>
+          Mc(
+            () => import("./index-66fa9931.js"),
+            [
+              "assets/index-66fa9931.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/loupe-958a83a9.js",
+              "assets/loupe-ad774da5.css",
+              "assets/board-f19e3f79.js",
+              "assets/oss-6d205324.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-65f103e3.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "bottle2",
+          periodNum: 1,
+          title: "灵感扭蛋机",
+          desc: "和灰太狼一起爆发灵感，探索神奇脑世界吧！",
+          hm: "bottle2",
+          imgUrl: Eu + "/bottle2/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/2023",
+        name: "2023",
+        component: () =>
+          Mc(
+            () => import("./index-a4b7311e.js"),
+            [
+              "assets/index-a4b7311e.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-0d68c37c.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "2023",
+          periodNum: 1,
+          title: "2023我在羊村",
+          desc: "快来加入羊村守护者，点击生成你的年度羊狼壁纸吧！",
+          hm: "2023",
+          imgUrl: Eu + "/2023/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/diy",
+        name: "diy",
+        component: () =>
+          Mc(
+            () => import("./index-35f9ec4d.js"),
+            [
+              "assets/index-35f9ec4d.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/html2canvas.esm-323b70d4.js",
+              "assets/sign-54d406fa.js",
+              "assets/oss-6d205324.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-ca66499b.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "diy",
+          periodNum: 1,
+          title: "羊羊咕宇宙",
+          desc: "贴贴小羊咩！在线咕卡想咕咩就咕咩～",
+          hm: "diy",
+          imgUrl: Eu + "/diy/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/diy-v1",
+        name: "diy-v1",
+        component: () =>
+          Mc(
+            () => import("./index-e7081656.js"),
+            [
+              "assets/index-e7081656.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/html2canvas.esm-323b70d4.js",
+              "assets/sign-54d406fa.js",
+              "assets/oss-6d205324.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-a92f2991.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "diy",
+          periodNum: 1,
+          title: "羊羊咕宇宙",
+          desc: "贴贴小羊咩！在线咕卡想咕咩就咕咩～",
+          hm: "diy",
+          imgUrl: Eu + "/diy/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/cicf",
+        name: "cicf",
+        component: () =>
+          Mc(
+            () => import("./index-9eaa44c8.js"),
+            [
+              "assets/index-9eaa44c8.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/index-5dcc09d0.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "AnimeConvention",
+          periodNum: 1,
+          title: "CICF羊羊宇宙纪念馆",
+          desc: "打卡CICF漫展羊羊展位，留下与羊狼们“跨次元”有爱合照！",
+          hm: "cicf",
+          imgUrl: Eu + "/cicf/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/wolfsburg",
+        name: "wolfsburg",
+        component: () =>
+          Mc(
+            () => import("./index-0c2bfdc7.js"),
+            [
+              "assets/index-0c2bfdc7.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/sign-54d406fa.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-e4311d96.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          activityKey: "wolfsburg",
+          periodNum: 1,
+          title: "狼堡叠高高",
+          desc: "你想成为狼王的最佳“堡”卫吗？快来帮助灰太狼为狼堡叠出新高度吧！",
+          hm: "wolfsburg",
+          imgUrl: Eu + "/wolfsburg/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/wish",
+        name: "wish",
+        component: () =>
+          Mc(
+            () => import("./index-f35c413b.js"),
+            [
+              "assets/index-f35c413b.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-b028f247.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          title: "羊羊心愿树",
+          desc: "流星流星我很忙，你有愿望我帮忙~悄悄许下你的小心愿，羊狼让你“愿望成真”！",
+          hm: "羊羊十八周年心愿树",
+          imgUrl: Eu + "/wish/share.png",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/wish-v1",
+        name: "wish-v1",
+        component: () =>
+          Mc(
+            () => import("./index-dca8957f.js"),
+            [
+              "assets/index-dca8957f.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/index-cdad1b5e.js",
+              "assets/index-9c25dcdf.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          title: "羊羊心愿树",
+          desc: "流星流星我很忙，你有愿望我帮忙~悄悄许下你的小心愿，羊狼让你“愿望成真”！",
+          hm: "羊羊十八周年心愿树",
+          imgUrl: Eu + "/wish/share.png",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/18th-h5",
+        name: "18th-h5",
+        component: () =>
+          Mc(
+            () => import("./index-76d26565.js"),
+            [
+              "assets/index-76d26565.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/index-dcea621d.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          title: "喜羊羊与灰太狼十八周年打卡签到",
+          desc: "领取周年限定福利，期待喜灰十八周年庆！",
+          hm: "18周年H5签到活动",
+          imgUrl: Eu + "/18th-h5/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/drift-bottle",
+        name: "drift-bottle",
+        component: () =>
+          Mc(
+            () => import("./index-3628a34f.js"),
+            [
+              "assets/index-3628a34f.js",
+              "assets/wxjssdk-9207b813.js",
+              "assets/upload-d134043f.js",
+              "assets/upload-265fc806.css",
+              "assets/loupe-958a83a9.js",
+              "assets/loupe-ad774da5.css",
+              "assets/index-cdad1b5e.js",
+              "assets/index-63e7e8da.css",
+            ]
+          ),
+        meta: {
+          login: !0,
+          title: "喜灰十八周年漂流瓶",
+          desc: "《喜羊羊与灰太狼》十八周年二创活动开始啦！快来制作你的时光漂流瓶吧！",
+          hm: "18周年时光漂流瓶",
+          imgUrl: Eu + "/drift-bottle/share.jpg",
+        },
+        props: [],
+        children: [],
+      },
+      {
+        path: "/file-upload",
+        name: "file-upload",
+        component: () =>
+          Mc(
+            () => import("./index-f387d9c7.js"),
+            [
+              "assets/index-f387d9c7.js",
+              "assets/upload-d134043f.js",
+              "assets/upload-265fc806.css",
+              "assets/index-078d8ca7.css",
+            ]
+          ),
+        meta: {},
+        props: [],
+        children: [],
+      },
     ],
   ],
   Pu = (function (e) {

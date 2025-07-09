@@ -22,9 +22,13 @@
 
 ## 图片历史
 
-| 旧                                                                                                                          | 新                                                                                                              |
-| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| ![role-1.old.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/icon/role-1.old.png)<br/>**role-1.old.png** | ![role-1.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/icon/role-1.png)<br/>**role-1.png** |
+| 旧                                                                                                                                               | 新                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| ![role-1.old.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/icon/role-1.old.png)<br/>**role-1.old.png**                      | ![role-1.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/icon/role-1.png)<br/>**role-1.png**                      |
+| ![game-tips-1.old.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/background/game-tips-1.old.png)<br/>**game-tips-1.old.png** | ![game-tips-1.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/background/game-tips-1.png)<br/>**game-tips-1.png** |
+| ![game-tips-2.old.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/background/game-tips-2.old.png)<br/>**game-tips-2.old.png** | ![game-tips-2.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/background/game-tips-2.png)<br/>**game-tips-2.png** |
+| ![game-tips-3.old.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/background/game-tips-3.old.png)<br/>**game-tips-3.old.png** | ![game-tips-3.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/background/game-tips-3.png)<br/>**game-tips-3.png** |
+| ![game-tips-4.old.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/background/game-tips-4.old.png)<br/>**game-tips-4.old.png** | ![game-tips-4.png](./cpe-oss-h5.oss-cn-shenzhen.aliyuncs.com/h5/202507/vvv/image/background/game-tips-4.png)<br/>**game-tips-4.png** |
 
 ## API 历史
 
@@ -123,6 +127,131 @@ curl 'http://ixyy.22dm.com/cgame/init?activityKey=202507' \
         [2, 3],
         [2, 3]
       ]
+    },
+    "playerCountToday": 0,
+    "playCountToday": 0
+  }
+}
+```
+
+#### 2025 年 7 月 8 日 22:30
+
+```json
+{
+  "code": 0,
+  "msg": "Success",
+  "data": {
+    "k": "197ea7013822cd53f83",
+    "playerCount": 0,
+    "playCount": 0,
+    "extra": {
+      "maxLevel": 7,
+      "everyLevelScore": 3000,
+      "showRank": 0,
+      "skin": [1, 1, 1, 1, 1, 1, 1, 2, 2],
+      "levelScore": [3, 4, 5, 5, 5, 5, 5, 6, 6],
+      "skinTitle": ["布拉拉国", "蓝星世界", "花花树世界", "绘本世界"],
+      "puzzleImgList": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5-0706.jpg",
+        "6-0706.jpg",
+        "7.jpg",
+        "8.jpg",
+        "9.jpg",
+        "10.jpg"
+      ],
+      "everyTimeScore": 50,
+      "puzzleIdList": [9, 10],
+      "everyFindScore": 200,
+      "speedFly": 350,
+      "levelTime": [60, 60, 60, 60, 60, 60, 60, 60, 50],
+      "whiteList": ["ofN_u6nBbWm3k8KmgyWetjEKIGaE"],
+      "levetTips": [
+        [1, 2],
+        [1, 3],
+        [1, 4],
+        [1, 4],
+        [4, 1],
+        [2, 3],
+        [2, 3],
+        [3, 3],
+        [3, 3]
+      ]
+    },
+    "playerCountToday": 0,
+    "playCountToday": 0
+  }
+}
+```
+
+#### 2025 年 7 月 9 日 23:30
+
+```json
+{
+  "code": 0,
+  "msg": "Success",
+  "data": {
+    "k": "197efcda99f1841b756",
+    "playerCount": 0,
+    "playCount": 0,
+    "extra": {
+      "maxLevel": 10,
+      "everyLevelScore": 3000,
+      "showRank": 0,
+      "skin": [1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4],
+      "levelScore": [3, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6],
+      "skinTitle": ["布拉拉国", "蓝星世界", "花花树世界", "绘本世界"],
+      "puzzleImgList": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5-0706.jpg",
+        "6-0706.jpg",
+        "7.jpg",
+        "8.jpg",
+        "9.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg",
+        "13.jpg",
+        "14.jpg",
+        "15.jpg",
+        "16.jpg",
+        "17.jpg",
+        "18.jpg",
+        "19.jpg",
+        "20.jpg",
+        "21.jpg",
+        "22.jpg"
+      ],
+      "everyTimeScore": 50,
+      "puzzleIdList": [11, 12],
+      "everyFindScore": 200,
+      "speedFly": 350,
+      "levelTime": [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
+      "whiteList": [],
+      "levetTips": [
+        [1, 2],
+        [1, 3],
+        [1, 4],
+        [1, 4],
+        [4, 1],
+        [2, 3],
+        [2, 3],
+        [3, 3],
+        [3, 3],
+        [2, 4],
+        [3, 3],
+        [3, 3],
+        [3, 3],
+        [3, 3],
+        [3, 3]
+      ],
+      "giftTime": 15
     },
     "playerCountToday": 0,
     "playCountToday": 0
